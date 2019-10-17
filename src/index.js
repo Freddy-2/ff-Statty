@@ -5,8 +5,8 @@ import allPlayers from "../ffplayers.js";
 
 window.addEventListener("DOMContentLoaded", () => {
   document.getElementById("app").innerText = "Hello World!";
-  console.log(stats18[4988])
-  console.log(allPlayers[4988])
+  console.log(stats18.rush_td)
+  console.log(allPlayers.search_full_name)
   // var xmlhttp = new XMLHttpRequest();
   // xmlhttp.onreadystatechange = function() {
   //   if (this.readyState == 4 && this.status == 200) {
