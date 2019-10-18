@@ -1,25 +1,25 @@
 
 
-var dataset1 = [
-  "417.08",
-  "283.1",
-  "372.1",
-  "194.1",
-  "328",
-  "197",
-  "294.6",
-  "185.6",
-];
 // var dataset1 = [
-//   "Patrick Mahomes 417.08",
-//   "Average QB 283.1",
-//   "Todd Gurley 372.1",
-//   "Average RB 194.1",
-//   "Tyreek Hill 328",
-//   "Average WR 197",
-//   "Travis Kelce 294.6",
-//   "Average TE 185.6",
+//   "417.08",
+//   "283.1",
+//   "372.1",
+//   "194.1",
+//   "328",
+//   "197",
+//   "294.6",
+//   "185.6",
 // ];
+var dataset1 = [
+  "Patrick Mahomes",
+  "Average QB",
+  "Todd Gurley",
+  "Average RB",
+  "Tyreek Hill",
+  "Average WR",
+  "Travis Kelce",
+  "Average TE",
+];
 
 // d3.select("body")
 //   .selectAll("p")
@@ -64,7 +64,7 @@ var barChart = svg.selectAll("rect")
 
 var text = svg
       .selectAll("text")
-      .data(dataset1)
+      .data(dataset2)
       .enter()
       .append("text")
       .text(function(d) {
@@ -76,4 +76,4 @@ var text = svg
       .attr("x", function(d, i) {
         return barWidth * i;
       })
-      .attr("fill", "black");
+      .attr("fill", "black ");
