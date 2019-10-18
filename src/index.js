@@ -3,7 +3,8 @@
 // const allPlayers = require("../ffplayers.js");
 // const playersStats = require("../playersAndStats.js");
 // import fs from "fs";
-import playersAndStats18 from '../placeholder.js'
+import playersAndStats18 from './placeholder'
+import cat from "./cat"
 
 window.addEventListener("DOMContentLoaded", () => {
   // document.getElementById("app").innerText = "Hello World!";
@@ -13,6 +14,7 @@ window.addEventListener("DOMContentLoaded", () => {
   console.log(playersAndStats18);
   const playerKeys = Object.keys(playersAndStats18);
   console.log(playerKeys)
+  console.log(cat)
 
   function autocomplete(input, players) {
    
