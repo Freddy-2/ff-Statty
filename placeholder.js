@@ -1,4 +1,4 @@
-{
+const playersAndStats18 = {
   "joeflacco": {
     "fantasy_positions": [
       "QB"
@@ -42303,3 +42303,5 @@
     "td": 0
   }
 }
+
+module.exports = playersAndStats18;
