@@ -1,4 +1,4 @@
-import playersAndStats18 from "./placeholder.js";
+// import playersAndStats18 from "./placeholder.js";
 
 // var dataset1 = [
 //   "417.08",
