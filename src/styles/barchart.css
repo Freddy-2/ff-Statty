@@ -1,3 +1,10 @@
 .bar-chart {  
     background-color: #C7D9D9;  
+    margin-right: 200px;
+}
+
+
+.main-content-box{
+    display: flex;
+    justify-content: flex-start;
 }
