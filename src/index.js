@@ -51,6 +51,7 @@ window.addEventListener("DOMContentLoaded", () => {
     197,
     294.6,
     185.6,
+    155.4
   ];
 
 
@@ -119,9 +120,14 @@ window.addEventListener("DOMContentLoaded", () => {
       return barWidth * i;
     })
     .attr("fill", "black ");
+  d3.select("p").on("click", function(){
+      // debugger
+      dataset2.pop();
+      dataset2.push(playersAndStats18[document.getElementById("myInput").value].pts_ppr);
+      console.log(dataset2);
+      d3.select("svg").remove();
+    });
 
-    	// d3.select("p")
-			// 	.on("submit", function() { dataset2.push(50)})
 
   function autocomplete(input, players) {
    
@@ -223,13 +229,7 @@ window.addEventListener("DOMContentLoaded", () => {
     // function pushPlayerScore(){
     //   dataset2.push(document.getElementById("myInput"));
     // }
-  d3.select("p").on("click", function(){
-      // debugger
-      dataset2.pop();
-      dataset2.push(playersAndStats18[document.getElementById("myInput").value].pts_ppr);
-      console.log(dataset2);
-      d3.select("svg").remove();
-    });
+
 
   autocomplete(document.getElementById("myInput"), playerKeys);
 
