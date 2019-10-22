@@ -3,7 +3,7 @@
 // const allPlayers = require("../ffplayers.js");
 // const playersStats = require("../playersAndStats.js");
 // import fs from "fs";
-import playersAndStats18 from './placeholder'
+import playersAndStats18 from './placeholder2'
 // import cat from "./cat"
 import createBarChart from './barChart'
 
