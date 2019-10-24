@@ -1,0 +1,36 @@
+.the-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.the-title{
+
+}
+
+.github-link{
+padding-right: 10px;
+}
+
+.linkedin-link{
+  padding-right: 10px;
+}
+
+.angellist{
+padding-right: 10px;
+}
+
+.personal-site{
+
+}
+
+.left-head{
+
+}
+
+.right-head{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
