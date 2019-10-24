@@ -1,7 +1,7 @@
 // import playersAndStats18 from "./placeholder.js";
 // const playersStats18 = require("./placeholder.js");con 
 
-export default function (dataset2){
+export default function (dataset2, dataset1){
 
   // d3.select("body")
   //   .selectAll("p")
@@ -10,8 +10,8 @@ export default function (dataset2){
   //   .append("p") // appends paragraph for each data element
   //   .text(dataset1[3]);
 
-  var svgWidth = 1000;
-  var svgHeight = 700;
+  var svgWidth = 1200;
+  var svgHeight = 800;
 
   var svg = d3
     .select("svg")
@@ -39,25 +39,25 @@ export default function (dataset2){
     .attr("height", function(d) {
       return d;
     })
-    .attr("width", barWidth - barPadding)
+    .attr("width", barWidth - barPadding -10)
     .attr("transform", function(d, i) {
       var translate = [barWidth * i, 0];
       return "translate(" + translate + ")";
     });
 
-  var xScale = d3
-    .scaleLinear()
-    .domain([0, d3.max(dataset2)])
-    .range([0, svgWidth]);
+  // var xScale = d3
+  //   .scaleLinear()
+  //   .domain([0, d3.max(dataset2)])
+  //   .range([0, svgWidth]);
 
-  var yScale = d3
-    .scaleLinear()
-    .domain([0, d3.max(dataset2)])
-    .range([svgHeight, 0]);
+  // var yScale = d3
+  //   .scaleLinear()
+  //   .domain([0, d3.max(dataset2)])
+  //   .range([svgHeight, 0]);
 
-  var x_axis = d3.axisBottom().scale(xScale);
+  // var x_axis = d3.axisBottom().scale(xScale);
 
-  var y_axis = d3.axisLeft().scale(yScale);
+  // var y_axis = d3.axisLeft().scale(yScale);
 
   // svg
   //   .append("g")

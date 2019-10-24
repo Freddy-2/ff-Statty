@@ -44,7 +44,7 @@ window.addEventListener("DOMContentLoaded", () => {
   //   .append("p") // appends paragraph for each data element
   //   .text(dataset1[3]);
 
-  createBarChart(dataset2);
+  createBarChart(dataset2, dataset1);
   
   
   d3.select("p").on("click", function(){
@@ -53,7 +53,7 @@ window.addEventListener("DOMContentLoaded", () => {
       dataset2.push(playersAndStats18[document.getElementById("myInput").value].pts_ppr);
       console.log(dataset2);
       d3.select("svg").selectAll("*").remove();
-      createBarChart(dataset2);
+      createBarChart(dataset2, dataset1);
     });
 
 
