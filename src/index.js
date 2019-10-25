@@ -46,11 +46,51 @@ window.addEventListener("DOMContentLoaded", () => {
 
   function setName(input) {
    let newName = document.getElementById("replaceable-name");
-   newName.innerHTML = input;
+   newName.innerHTML = input + " " + playersAndStats18[input].position;
   }
   function setStats(input) {
    let newName = document.getElementById("stats-name");
-   newName.innerHTML = input;
+   let jerseyNum = document.getElementById("Jersey-Number");
+   let year = document.getElementById("Year");
+   let team = document.getElementById("Team");
+   let gp = document.getElementById("Games-Played");
+   let gs = document.getElementById("Games-Started");
+   let pa = document.getElementById("Pass-Attempts");
+   let pc = document.getElementById("Pass-Completions");
+   let pi = document.getElementById("Pass-Incompletions");
+   let py = document.getElementById("Passing-Yards");
+   let pt = document.getElementById("Passing-Touchdowns");
+   let int = document.getElementById("Interceptions");
+   let fum = document.getElementById("Fumbles-Lost");
+   let tar = document.getElementById("Targets");
+   let rec = document.getElementById("Receptions");
+   let recyd = document.getElementById("Receieving-Yards");
+   let rectd = document.getElementById("Receieving-Touchdowns");
+   let rushatt = document.getElementById("Rush-Attempts");
+   let rushyd = document.getElementById("Rushing-Yards");
+   let rushtd = document.getElementById("Rushing-Touchdowns");
+   let tds = document.getElementById("Total-Touchdowns");
+   newName.innerHTML = input.first_name + " " + input.last_name + " " + input.position;
+   jerseyNum.innerHTML = input.number;
+   year.innerHTML = input.year;
+   team.innerHTML = input.team;
+   gp.innerHTML = input.gp;
+   gs.innerHTML = input.gs;
+   pa.innerHTML = input.pass_att;
+   pc.innerHTML = input.pass_cmp;
+   pi.innerHTML = input.pass_inc;
+   py.innerHTML = input.pass_yd;
+   pt.innerHTML = input.pass_td;
+   int.innerHTML = input.pass_int;
+   fum.innerHTML = input.fum_lost;
+   tar.innerHTML = input.rec_tgt;
+   rec.innerHTML = input.rec;
+   recyd.innerHTML = input.rec_yd;
+   rectd.innerHTML = input.rec_td;
+   rushatt.innerHTML = input.rush_att;
+   rushyd.innerHTML = input.rush_yd;
+   rushtd.innerHTML = input.rush_td;
+   tds.innerHTML = input.td;
   }
 
 
@@ -66,8 +106,8 @@ window.addEventListener("DOMContentLoaded", () => {
       console.log(dataset2);
       d3.select("svg").selectAll("*").remove();
       createBarChart(dataset2);
-      setName(document.getElementById("myInput").value + " " + playersAndStats18[document.getElementById("myInput").value].position);
-      setStats(document.getElementById("myInput").value + " " + playersAndStats18[document.getElementById("myInput").value].position);
+      setName(document.getElementById("myInput").value);
+      setStats(playersAndStats18[document.getElementById("myInput").value]);
     });
 
 
