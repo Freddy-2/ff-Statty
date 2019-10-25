@@ -11,7 +11,7 @@ export default function (dataset2){
   //   .text(dataset1[3]);
 
   var svgWidth = 1400;
-  var svgHeight = 800;
+  var svgHeight = 700;
 
   var svg = d3
     .select("svg")

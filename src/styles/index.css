@@ -87,5 +87,10 @@ margin-left: 80px;
 }
 
 .right-side-main-pg{
-  
+
+}
+
+.autocomplete-items{   
+  max-height: 200px;
+  overflow-y: scroll;
 }
