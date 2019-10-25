@@ -34,10 +34,10 @@ export default function (dataset2, dataset1){
     .enter()
     .append("rect")
     .attr("y", function(d) {
-      return svgHeight - d;
+      return svgHeight - d.pts;
     })
     .attr("height", function(d) {
-      return d;
+      return d.pts;
     })
     .attr("width", barWidth - barPadding -10)
     .attr("transform", function(d, i) {
@@ -77,10 +77,10 @@ export default function (dataset2, dataset1){
     .enter()
     .append("text")
     .text(function(d) {
-      return d + " ppr pts";
+      return d.name;
     })
     .attr("y", function(d, i) {
-      return svgHeight - d - 4;
+      return svgHeight - d.pts - 4;
     })
     .attr("x", function(d, i) {
       return barWidth * i;

@@ -27,15 +27,15 @@ window.addEventListener("DOMContentLoaded", () => {
     "Average TE"
   ];
   var dataset2 = [
-    417.08,
-    283.1,
-    372.1,
-    194.1,
-    328,
-    197,
-    294.6,
-    185.6,
-    155.4
+   {pts: playersAndStats18.patrickmahomes.pts_ppr, name: playersAndStats18.patrickmahomes.full_name},
+   {pts: 283.1, name: "Average QB"},
+   {pts: playersAndStats18.toddgurley.pts_ppr, name: playersAndStats18.toddgurley.full_name},
+   {pts: 194.1, name: "Average RB"},
+   {pts: playersAndStats18.tyreekhill.pts_ppr, name: playersAndStats18.tyreekhill.full_name},
+   {pts: 197, name: "Average WR"},
+   {pts: playersAndStats18.traviskelce.pts_ppr, name: playersAndStats18.traviskelce.full_name},
+   {pts: 185.6, name: "Average TE"},
+   {pts: 100, name: "Alfred Allegretti"},
   ];
   // d3.select("body")
   //   .selectAll("p")
@@ -50,7 +50,7 @@ window.addEventListener("DOMContentLoaded", () => {
   d3.select("p").on("click", function(){
       // debugger
       dataset2.pop();
-      dataset2.push(playersAndStats18[document.getElementById("myInput").value].pts_ppr);
+      dataset2.push({pts: playersAndStats18[document.getElementById("myInput").value].pts_ppr, name: playersAndStats18[document.getElementById("myInput").value].full_name} );
       console.log(dataset2);
       d3.select("svg").selectAll("*").remove();
       createBarChart(dataset2, dataset1);
