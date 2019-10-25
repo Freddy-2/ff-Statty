@@ -1,7 +1,7 @@
 // import playersAndStats18 from "./placeholder.js";
 // const playersStats18 = require("./placeholder.js");con 
 
-export default function (dataset2, dataset1){
+export default function (dataset2){
 
   // d3.select("body")
   //   .selectAll("p")
@@ -10,7 +10,7 @@ export default function (dataset2, dataset1){
   //   .append("p") // appends paragraph for each data element
   //   .text(dataset1[3]);
 
-  var svgWidth = 1200;
+  var svgWidth = 1400;
   var svgHeight = 800;
 
   var svg = d3
@@ -64,12 +64,14 @@ export default function (dataset2, dataset1){
   //   .attr("transform", "translate(50, 10)")
   //   .call(y_axis);
 
-  // var xAxisTranslate = svgHeight - 20;
+  // var xAxisTranslate = svgHeight - 10;
 
   // svg
   //   .append("g")
   //   .attr("transform", "translate(50, " + xAxisTranslate + ")")
   //   .call(x_axis);
+
+
 
   var text = svg
     .selectAll("text")
@@ -77,7 +79,7 @@ export default function (dataset2, dataset1){
     .enter()
     .append("text")
     .text(function(d) {
-      return d.name;
+      return d.pts + " ppr pts";
     })
     .attr("y", function(d, i) {
       return svgHeight - d.pts - 4;
@@ -85,5 +87,5 @@ export default function (dataset2, dataset1){
     .attr("x", function(d, i) {
       return barWidth * i;
     })
-    .attr("fill", "black ");
+    .attr("fill", "red");
   }

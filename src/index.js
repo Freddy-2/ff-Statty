@@ -3,7 +3,7 @@
 // const allPlayers = require("../ffplayers.js");
 // const playersStats = require("../playersAndStats.js");
 // import fs from "fs";
-import playersAndStats18 from './placeholder2'
+import playersAndStats18 from './placeholder3'
 // import cat from "./cat"
 import createBarChart from './barChart'
 
@@ -16,24 +16,24 @@ window.addEventListener("DOMContentLoaded", () => {
   const playerKeys = Object.keys(playersAndStats18);
   // console.log(playerKeys)
   // console.log(cat)
-  var dataset1 = [
-    "Patrick Mahomes",
-    "Average QB",
-    "Todd Gurley",
-    "Average RB",
-    "Tyreek Hill",
-    "Average WR",
-    "Travis Kelce",
-    "Average TE"
-  ];
+  // var dataset1 = [
+  //   "Patrick Mahomes",
+  //   "Average QB",
+  //   "Todd Gurley",
+  //   "Average RB",
+  //   "Tyreek Hill",
+  //   "Average WR",
+  //   "Travis Kelce",
+  //   "Average TE"
+  // ];
   var dataset2 = [
-   {pts: playersAndStats18.patrickmahomes.pts_ppr, name: playersAndStats18.patrickmahomes.full_name},
+   {pts: playersAndStats18["Patrick Mahomes"].pts_ppr, name: playersAndStats18["Patrick Mahomes"].full_name},
    {pts: 283.1, name: "Average QB"},
-   {pts: playersAndStats18.toddgurley.pts_ppr, name: playersAndStats18.toddgurley.full_name},
+   {pts: playersAndStats18["Todd Gurley"].pts_ppr, name: playersAndStats18["Todd Gurley"].full_name},
    {pts: 194.1, name: "Average RB"},
-   {pts: playersAndStats18.tyreekhill.pts_ppr, name: playersAndStats18.tyreekhill.full_name},
+   {pts: playersAndStats18["Tyreek Hill"].pts_ppr, name: playersAndStats18["Tyreek Hill"].full_name},
    {pts: 197, name: "Average WR"},
-   {pts: playersAndStats18.traviskelce.pts_ppr, name: playersAndStats18.traviskelce.full_name},
+   {pts: playersAndStats18["Travis Kelce"].pts_ppr, name: playersAndStats18["Travis Kelce"].full_name},
    {pts: 185.6, name: "Average TE"},
    {pts: 100, name: "Alfred Allegretti"},
   ];
@@ -44,8 +44,13 @@ window.addEventListener("DOMContentLoaded", () => {
   //   .append("p") // appends paragraph for each data element
   //   .text(dataset1[3]);
 
-  createBarChart(dataset2, dataset1);
-  
+  function setName(input) {
+   let newName = document.getElementById("replaceable-name");
+   newName.innerHTML = input
+  }
+
+
+  createBarChart(dataset2);
   
   d3.select("p").on("click", function(){
       // debugger
@@ -53,7 +58,8 @@ window.addEventListener("DOMContentLoaded", () => {
       dataset2.push({pts: playersAndStats18[document.getElementById("myInput").value].pts_ppr, name: playersAndStats18[document.getElementById("myInput").value].full_name} );
       console.log(dataset2);
       d3.select("svg").selectAll("*").remove();
-      createBarChart(dataset2, dataset1);
+      createBarChart(dataset2);
+      setName(document.getElementById("myInput").value);
     });
 
 

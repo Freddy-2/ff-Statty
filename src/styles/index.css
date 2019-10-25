@@ -34,3 +34,44 @@ padding-right: 10px;
   justify-content: space-between;
   font-size: 20px;
 }
+
+.names-list{
+  display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    background-color: white;
+    /* padding-right: 230px; */
+}
+
+.topQB{
+
+}
+
+.avgQB{
+  margin-left: 42px;
+}
+.topRB{
+margin-left: 78px;
+}
+
+.avgRB{
+margin-left: 73px;
+}
+.topWR{
+margin-left: 79px;
+}
+
+.avgWR{
+margin-left: 80px;
+}
+.topTE{
+margin-left: 76px;
+}
+
+.avgTE{
+margin-left: 72px;
+}
+
+.replacement{
+margin-left: 80px;
+}

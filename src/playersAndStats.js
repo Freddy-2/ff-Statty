@@ -10,7 +10,7 @@ const calcPlayerStats = function(allPlayers, stats18) {
     if (!!allPlayers[i] && !!stats18[i] && stats18[i].gp > 0 && (allPlayers[i].position === "QB" || allPlayers[i].position === "RB" || allPlayers[i].position === "WR" || allPlayers[i].position === "TE" )){
 
       // debugger
-      playersStats[allPlayers[i].search_full_name] = {
+      playersStats[allPlayers[i].first_name+" "+allPlayers[i].last_name] = {
         "fantasy_positions": allPlayers[i].fantasy_positions || null,
         "number": allPlayers[i].number || null,
         "full_name": allPlayers[i].search_full_name || null,
