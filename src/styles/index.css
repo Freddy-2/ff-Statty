@@ -40,6 +40,10 @@ padding-right: 10px;
     flex-direction: row;
     /* justify-content: flex-start; */
     background-color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    
     /* padding-right: 230px; */
 }
 
@@ -48,30 +52,40 @@ padding-right: 10px;
 }
 
 .avgQB{
-  margin-left: 42px;
+  margin-left: 14px;
 }
 .topRB{
 margin-left: 78px;
 }
 
 .avgRB{
-margin-left: 73px;
+margin-left: 49px;
 }
 .topWR{
 margin-left: 79px;
 }
 
 .avgWR{
-margin-left: 80px;
+margin-left: 58px;
 }
 .topTE{
 margin-left: 76px;
 }
 
 .avgTE{
-margin-left: 72px;
+margin-left: 52px;
 }
 
 .replacement{
 margin-left: 80px;
+}
+
+.chart-title{
+      background-color: #C7D9D9;
+    width: 1400px;
+    margin-bottom: 0px;
+}
+
+.right-side-main-pg{
+  
 }

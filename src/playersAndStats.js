@@ -12,6 +12,7 @@ const calcPlayerStats = function(allPlayers, stats18) {
       // debugger
       playersStats[allPlayers[i].first_name+" "+allPlayers[i].last_name] = {
         "fantasy_positions": allPlayers[i].fantasy_positions || null,
+        "year": 2018,
         "number": allPlayers[i].number || null,
         "full_name": allPlayers[i].search_full_name || null,
         "first_name": allPlayers[i].first_name || null,
@@ -32,6 +33,13 @@ const calcPlayerStats = function(allPlayers, stats18) {
         "rush_td": stats18[i].rush_td || 0,
         "rush_yd": stats18[i].rush_yd || 0,
         "td": stats18[i].td || 0,
+        "pass_td": stats18[i].pass_td || 0,
+        "pass_int": stats18[i].pass_int || 0,
+        "pass_cmp": stats18[i].pass_cmp || 0,
+        "pass_att": stats18[i].pass_att || 0,
+        "pass_yd": stats18[i].pass_yd || 0,
+        "pass_inc": stats18[i].pass_inc || 0,
+        "fum_lost": stats18[i].fum_lost || 0,
       } 
     }
   }

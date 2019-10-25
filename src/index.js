@@ -3,7 +3,7 @@
 // const allPlayers = require("../ffplayers.js");
 // const playersStats = require("../playersAndStats.js");
 // import fs from "fs";
-import playersAndStats18 from './placeholder3'
+import playersAndStats18 from './maindata'
 // import cat from "./cat"
 import createBarChart from './barChart'
 
@@ -35,7 +35,7 @@ window.addEventListener("DOMContentLoaded", () => {
    {pts: 197, name: "Average WR"},
    {pts: playersAndStats18["Travis Kelce"].pts_ppr, name: playersAndStats18["Travis Kelce"].full_name},
    {pts: 185.6, name: "Average TE"},
-   {pts: 100, name: "Alfred Allegretti"},
+   {pts: playersAndStats18["Ronald Jones II"].pts_ppr, name: playersAndStats18["Ronald Jones II"].full_name},
   ];
   // d3.select("body")
   //   .selectAll("p")
@@ -46,7 +46,11 @@ window.addEventListener("DOMContentLoaded", () => {
 
   function setName(input) {
    let newName = document.getElementById("replaceable-name");
-   newName.innerHTML = input
+   newName.innerHTML = input;
+  }
+  function setStats(input) {
+   let newName = document.getElementById("stats-name");
+   newName.innerHTML = input;
   }
 
 
@@ -54,12 +58,16 @@ window.addEventListener("DOMContentLoaded", () => {
   
   d3.select("p").on("click", function(){
       // debugger
+      if (!playersAndStats18[document.getElementById("myInput").value].pts_ppr === true){
+        return;
+      }
       dataset2.pop();
       dataset2.push({pts: playersAndStats18[document.getElementById("myInput").value].pts_ppr, name: playersAndStats18[document.getElementById("myInput").value].full_name} );
       console.log(dataset2);
       d3.select("svg").selectAll("*").remove();
       createBarChart(dataset2);
-      setName(document.getElementById("myInput").value);
+      setName(document.getElementById("myInput").value + " " + playersAndStats18[document.getElementById("myInput").value].position);
+      setStats(document.getElementById("myInput").value + " " + playersAndStats18[document.getElementById("myInput").value].position);
     });
 
 

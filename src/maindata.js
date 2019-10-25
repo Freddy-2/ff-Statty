@@ -1,8 +1,9 @@
 const playersAndStats18 = {
-  "joeflacco": {
+  "Joe Flacco": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 5,
     "full_name": "joeflacco",
     "first_name": "Joe",
@@ -22,12 +23,20 @@ const playersAndStats18 = {
     "rush_att": 19,
     "rush_td": 0,
     "rush_yd": 45,
-    "td": 0
+    "td": 0,
+    "pass_td": 12,
+    "pass_int": 6,
+    "pass_cmp": 232,
+    "pass_att": 379,
+    "pass_yd": 2465,
+    "pass_inc": 147,
+    "fum_lost": 1
   },
-  "mattryan": {
+  "Matt Ryan": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 2,
     "full_name": "mattryan",
     "first_name": "Matt",
@@ -47,12 +56,20 @@ const playersAndStats18 = {
     "rush_att": 33,
     "rush_td": 3,
     "rush_yd": 125,
-    "td": 4
+    "td": 4,
+    "pass_td": 35,
+    "pass_int": 7,
+    "pass_cmp": 422,
+    "pass_att": 608,
+    "pass_yd": 4924,
+    "pass_inc": 186,
+    "fum_lost": 5
   },
-  "gregolsen": {
+  "Greg Olsen": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "gregolsen",
     "first_name": "Greg",
@@ -72,12 +89,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "chadhenne": {
+  "Chad Henne": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 4,
     "full_name": "chadhenne",
     "first_name": "Chad",
@@ -97,12 +122,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 3,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 2,
+    "pass_att": 3,
+    "pass_yd": 29,
+    "pass_inc": 1,
+    "fum_lost": 0
   },
-  "aaronrodgers": {
+  "Aaron Rodgers": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "aaronrodgers",
     "first_name": "Aaron",
@@ -122,12 +155,20 @@ const playersAndStats18 = {
     "rush_att": 43,
     "rush_td": 2,
     "rush_yd": 269,
-    "td": 2
+    "td": 2,
+    "pass_td": 25,
+    "pass_int": 2,
+    "pass_cmp": 372,
+    "pass_att": 597,
+    "pass_yd": 4442,
+    "pass_inc": 225,
+    "fum_lost": 3
   },
-  "marcedeslewis": {
+  "Marcedes Lewis": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 89,
     "full_name": "marcedeslewis",
     "first_name": "Marcedes",
@@ -147,12 +188,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "benroethlisberger": {
+  "Ben Roethlisberger": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 7,
     "full_name": "benroethlisberger",
     "first_name": "Ben",
@@ -172,12 +221,20 @@ const playersAndStats18 = {
     "rush_att": 31,
     "rush_td": 3,
     "rush_yd": 98,
-    "td": 3
+    "td": 3,
+    "pass_td": 34,
+    "pass_int": 16,
+    "pass_cmp": 452,
+    "pass_att": 675,
+    "pass_yd": 5129,
+    "pass_inc": 223,
+    "fum_lost": 2
   },
-  "deseanjackson": {
+  "DeSean Jackson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "deseanjackson",
     "first_name": "DeSean",
@@ -197,12 +254,20 @@ const playersAndStats18 = {
     "rush_att": 6,
     "rush_td": 1,
     "rush_yd": 29,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tombrady": {
+  "Tom Brady": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "tombrady",
     "first_name": "Tom",
@@ -222,12 +287,20 @@ const playersAndStats18 = {
     "rush_att": 23,
     "rush_td": 2,
     "rush_yd": 35,
-    "td": 2
+    "td": 2,
+    "pass_td": 29,
+    "pass_int": 11,
+    "pass_cmp": 375,
+    "pass_att": 570,
+    "pass_yd": 4355,
+    "pass_inc": 195,
+    "fum_lost": 2
   },
-  "jordynelson": {
+  "Jordy Nelson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "jordynelson",
     "first_name": "Jordy",
@@ -247,12 +320,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -2,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mattschaub": {
+  "Matt Schaub": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 8,
     "full_name": "mattschaub",
     "first_name": "Matt",
@@ -272,12 +353,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 5,
+    "pass_att": 7,
+    "pass_yd": 20,
+    "pass_inc": 2,
+    "fum_lost": 0
   },
-  "adrianpeterson": {
+  "Adrian Peterson": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 26,
     "full_name": "adrianpeterson",
     "first_name": "Adrian",
@@ -297,12 +386,20 @@ const playersAndStats18 = {
     "rush_att": 251,
     "rush_td": 7,
     "rush_yd": 1042,
-    "td": 8
+    "td": 8,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "elimanning": {
+  "Eli Manning": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "elimanning",
     "first_name": "Eli",
@@ -322,12 +419,20 @@ const playersAndStats18 = {
     "rush_att": 15,
     "rush_td": 1,
     "rush_yd": 20,
-    "td": 1
+    "td": 1,
+    "pass_td": 21,
+    "pass_int": 11,
+    "pass_cmp": 380,
+    "pass_att": 576,
+    "pass_yd": 4299,
+    "pass_inc": 196,
+    "fum_lost": 4
   },
-  "vernondavis": {
+  "Vernon Davis": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "vernondavis",
     "first_name": "Vernon",
@@ -347,12 +452,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "joshmccown": {
+  "Josh McCown": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "joshmccown",
     "first_name": "Josh",
@@ -372,12 +485,20 @@ const playersAndStats18 = {
     "rush_att": 5,
     "rush_td": 0,
     "rush_yd": 32,
-    "td": 0
+    "td": 0,
+    "pass_td": 1,
+    "pass_int": 4,
+    "pass_cmp": 60,
+    "pass_att": 110,
+    "pass_yd": 539,
+    "pass_inc": 49,
+    "fum_lost": 0
   },
-  "jonathanstewart": {
+  "Jonathan Stewart": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 28,
     "full_name": "jonathanstewart",
     "first_name": "Jonathan",
@@ -397,12 +518,20 @@ const playersAndStats18 = {
     "rush_att": 6,
     "rush_td": 0,
     "rush_yd": 17,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "larryfitzgerald": {
+  "Larry Fitzgerald": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "larryfitzgerald",
     "first_name": "Larry",
@@ -422,12 +551,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 6
+    "td": 6,
+    "pass_td": 1,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 1,
+    "pass_yd": 32,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "frankgore": {
+  "Frank Gore": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 20,
     "full_name": "frankgore",
     "first_name": "Frank",
@@ -447,12 +584,20 @@ const playersAndStats18 = {
     "rush_att": 156,
     "rush_td": 0,
     "rush_yd": 722,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "darrensproles": {
+  "Darren Sproles": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 43,
     "full_name": "darrensproles",
     "first_name": "Darren",
@@ -472,12 +617,20 @@ const playersAndStats18 = {
     "rush_att": 29,
     "rush_td": 1,
     "rush_yd": 120,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "joshjohnson": {
+  "Josh Johnson": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 8,
     "full_name": "joshjohnson",
     "first_name": "Josh",
@@ -497,12 +650,20 @@ const playersAndStats18 = {
     "rush_att": 23,
     "rush_td": 1,
     "rush_yd": 120,
-    "td": 1
+    "td": 1,
+    "pass_td": 3,
+    "pass_int": 4,
+    "pass_cmp": 52,
+    "pass_att": 91,
+    "pass_yd": 590,
+    "pass_inc": 39,
+    "fum_lost": 0
   },
-  "alexsmith": {
+  "Alex Smith": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "alexsmith",
     "first_name": "Alex",
@@ -522,12 +683,20 @@ const playersAndStats18 = {
     "rush_att": 41,
     "rush_td": 1,
     "rush_yd": 168,
-    "td": 1
+    "td": 1,
+    "pass_td": 10,
+    "pass_int": 5,
+    "pass_cmp": 205,
+    "pass_att": 328,
+    "pass_yd": 2180,
+    "pass_inc": 123,
+    "fum_lost": 1
   },
-  "pierregarcon": {
+  "Pierre Garcon": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "pierregarcon",
     "first_name": "Pierre",
@@ -547,12 +716,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "delaniewalker": {
+  "Delanie Walker": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "delaniewalker",
     "first_name": "Delanie",
@@ -572,12 +749,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "drewbrees": {
+  "Drew Brees": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 9,
     "full_name": "drewbrees",
     "first_name": "Drew",
@@ -597,12 +782,20 @@ const playersAndStats18 = {
     "rush_att": 31,
     "rush_td": 4,
     "rush_yd": 22,
-    "td": 4
+    "td": 4,
+    "pass_td": 32,
+    "pass_int": 5,
+    "pass_cmp": 364,
+    "pass_att": 489,
+    "pass_yd": 3992,
+    "pass_inc": 125,
+    "fum_lost": 1
   },
-  "matthewslater": {
+  "Matthew Slater": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "matthewslater",
     "first_name": "Matthew",
@@ -622,12 +815,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "antoniogates": {
+  "Antonio Gates": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "antoniogates",
     "first_name": "Antonio",
@@ -647,12 +848,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "jamaalcharles": {
+  "Jamaal Charles": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 31,
     "full_name": "jamaalcharles",
     "first_name": "Jamaal",
@@ -672,12 +881,20 @@ const playersAndStats18 = {
     "rush_att": 6,
     "rush_td": 0,
     "rush_yd": 7,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "philiprivers": {
+  "Philip Rivers": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "philiprivers",
     "first_name": "Philip",
@@ -697,12 +914,20 @@ const playersAndStats18 = {
     "rush_att": 18,
     "rush_td": 0,
     "rush_yd": 7,
-    "td": 0
+    "td": 0,
+    "pass_td": 32,
+    "pass_int": 12,
+    "pass_cmp": 347,
+    "pass_att": 508,
+    "pass_yd": 4308,
+    "pass_inc": 161,
+    "fum_lost": 1
   },
-  "ryanfitzpatrick": {
+  "Ryan Fitzpatrick": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "ryanfitzpatrick",
     "first_name": "Ryan",
@@ -722,12 +947,20 @@ const playersAndStats18 = {
     "rush_att": 36,
     "rush_td": 2,
     "rush_yd": 152,
-    "td": 2
+    "td": 2,
+    "pass_td": 17,
+    "pass_int": 12,
+    "pass_cmp": 164,
+    "pass_att": 246,
+    "pass_yd": 2366,
+    "pass_inc": 82,
+    "fum_lost": 1
   },
-  "julianedelman": {
+  "Julian Edelman": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "julianedelman",
     "first_name": "Julian",
@@ -747,12 +980,20 @@ const playersAndStats18 = {
     "rush_att": 9,
     "rush_td": 0,
     "rush_yd": 107,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 2,
+    "pass_att": 2,
+    "pass_yd": 43,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "brianhoyer": {
+  "Brian Hoyer": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 2,
     "full_name": "brianhoyer",
     "first_name": "Brian",
@@ -772,12 +1013,20 @@ const playersAndStats18 = {
     "rush_att": 11,
     "rush_td": 0,
     "rush_yd": -8,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 2,
+    "pass_yd": 7,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "brandontate": {
+  "Brandon Tate": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "brandontate",
     "first_name": "Brandon",
@@ -797,12 +1046,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "marksanchez": {
+  "Mark Sanchez": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 6,
     "full_name": "marksanchez",
     "first_name": "Mark",
@@ -822,12 +1079,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 8,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 3,
+    "pass_cmp": 19,
+    "pass_att": 35,
+    "pass_yd": 138,
+    "pass_inc": 16,
+    "fum_lost": 0
   },
-  "mikewallace": {
+  "Mike Wallace": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "mikewallace",
     "first_name": "Mike",
@@ -847,12 +1112,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jaredcook": {
+  "Jared Cook": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "jaredcook",
     "first_name": "Jared",
@@ -872,12 +1145,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mattcassel": {
+  "Matt Cassel": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 8,
     "full_name": "mattcassel",
     "first_name": "Matt",
@@ -897,12 +1178,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 13,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 1,
+    "pass_cmp": 7,
+    "pass_att": 17,
+    "pass_yd": 59,
+    "pass_inc": 10,
+    "fum_lost": 0
   },
-  "darriusheywardbey": {
+  "Darrius Heyward-Bey": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "darriusheywardbey",
     "first_name": "Darrius",
@@ -922,12 +1211,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -7,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "johnphillips": {
+  "John Phillips": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "johnphillips",
     "first_name": "John",
@@ -947,12 +1244,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "matthewstafford": {
+  "Matthew Stafford": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 9,
     "full_name": "matthewstafford",
     "first_name": "Matthew",
@@ -972,12 +1277,20 @@ const playersAndStats18 = {
     "rush_att": 25,
     "rush_td": 0,
     "rush_yd": 71,
-    "td": 0
+    "td": 0,
+    "pass_td": 21,
+    "pass_int": 11,
+    "pass_cmp": 367,
+    "pass_att": 555,
+    "pass_yd": 3777,
+    "pass_inc": 188,
+    "fum_lost": 4
   },
-  "michaelcrabtree": {
+  "Michael Crabtree": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "michaelcrabtree",
     "first_name": "Michael",
@@ -997,12 +1310,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "chasedaniel": {
+  "Chase Daniel": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 4,
     "full_name": "chasedaniel",
     "first_name": "Chase",
@@ -1022,12 +1343,20 @@ const playersAndStats18 = {
     "rush_att": 13,
     "rush_td": 0,
     "rush_yd": 3,
-    "td": 0
+    "td": 0,
+    "pass_td": 3,
+    "pass_int": 2,
+    "pass_cmp": 53,
+    "pass_att": 76,
+    "pass_yd": 515,
+    "pass_inc": 23,
+    "fum_lost": 0
   },
-  "dannyamendola": {
+  "Danny Amendola": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "dannyamendola",
     "first_name": "Danny",
@@ -1047,12 +1376,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -2,
-    "td": 1
+    "td": 1,
+    "pass_td": 1,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 1,
+    "pass_yd": 28,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "robgronkowski": {
+  "Rob Gronkowski": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "robgronkowski",
     "first_name": "Rob",
@@ -1072,12 +1409,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "jermainegresham": {
+  "Jermaine Gresham": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "jermainegresham",
     "first_name": "Jermaine",
@@ -1097,12 +1442,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "coltmccoy": {
+  "Colt McCoy": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "coltmccoy",
     "first_name": "Colt",
@@ -1122,12 +1475,20 @@ const playersAndStats18 = {
     "rush_att": 10,
     "rush_td": 0,
     "rush_yd": 63,
-    "td": 0
+    "td": 0,
+    "pass_td": 3,
+    "pass_int": 3,
+    "pass_cmp": 34,
+    "pass_att": 54,
+    "pass_yd": 372,
+    "pass_inc": 20,
+    "fum_lost": 0
   },
-  "antoniobrown": {
+  "Antonio Brown": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "antoniobrown",
     "first_name": "Antonio",
@@ -1147,12 +1508,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 15
+    "td": 15,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 1,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "emmanuelsanders": {
+  "Emmanuel Sanders": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "emmanuelsanders",
     "first_name": "Emmanuel",
@@ -1172,12 +1541,20 @@ const playersAndStats18 = {
     "rush_att": 4,
     "rush_td": 1,
     "rush_yd": 53,
-    "td": 5
+    "td": 5,
+    "pass_td": 1,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 1,
+    "pass_yd": 28,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "demaryiusthomas": {
+  "Demaryius Thomas": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "demaryiusthomas",
     "first_name": "Demaryius",
@@ -1197,12 +1574,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "loganpaulsen": {
+  "Logan Paulsen": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "loganpaulsen",
     "first_name": "Logan",
@@ -1222,12 +1607,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "joewebb": {
+  "Joe Webb": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 5,
     "full_name": "joewebb",
     "first_name": "Joe",
@@ -1247,12 +1640,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "brandonlafell": {
+  "Brandon LaFell": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "brandonlafell",
     "first_name": "Brandon",
@@ -1272,12 +1673,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jimmygraham": {
+  "Jimmy Graham": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "jimmygraham",
     "first_name": "Jimmy",
@@ -1297,12 +1706,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "sambradford": {
+  "Sam Bradford": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 9,
     "full_name": "sambradford",
     "first_name": "Sam",
@@ -1322,12 +1739,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 7,
-    "td": 0
+    "td": 0,
+    "pass_td": 2,
+    "pass_int": 4,
+    "pass_cmp": 50,
+    "pass_att": 80,
+    "pass_yd": 400,
+    "pass_inc": 30,
+    "fum_lost": 2
   },
-  "andreroberts": {
+  "Andre Roberts": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "andreroberts",
     "first_name": "Andre",
@@ -1347,12 +1772,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 20,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "goldentate": {
+  "Golden Tate": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "goldentate",
     "first_name": "Golden",
@@ -1372,12 +1805,20 @@ const playersAndStats18 = {
     "rush_att": 4,
     "rush_td": 0,
     "rush_yd": 34,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "brandonmarshall": {
+  "Brandon Marshall": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "brandonmarshall",
     "first_name": "Brandon",
@@ -1397,12 +1838,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "benjaminwatson": {
+  "Benjamin Watson": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "benjaminwatson",
     "first_name": "Benjamin",
@@ -1422,12 +1871,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "leseanmccoy": {
+  "LeSean McCoy": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 25,
     "full_name": "leseanmccoy",
     "first_name": "LeSean",
@@ -1447,12 +1904,20 @@ const playersAndStats18 = {
     "rush_att": 161,
     "rush_td": 3,
     "rush_yd": 514,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "derekanderson": {
+  "Derek Anderson": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 3,
     "full_name": "derekanderson",
     "first_name": "Derek",
@@ -1472,12 +1937,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -1,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 4,
+    "pass_cmp": 42,
+    "pass_att": 70,
+    "pass_yd": 465,
+    "pass_inc": 28,
+    "fum_lost": 2
   },
-  "tedginn": {
+  "Ted Ginn": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "tedginn",
     "first_name": "Ted",
@@ -1497,12 +1970,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 26,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "eddickson": {
+  "Ed Dickson": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "eddickson",
     "first_name": "Ed",
@@ -1522,12 +2003,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 9,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "chrisivory": {
+  "Chris Ivory": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 33,
     "full_name": "chrisivory",
     "first_name": "Chris",
@@ -1547,12 +2036,20 @@ const playersAndStats18 = {
     "rush_att": 115,
     "rush_td": 1,
     "rush_yd": 385,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "legarretteblount": {
+  "LeGarrette Blount": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 29,
     "full_name": "legarretteblount",
     "first_name": "LeGarrette",
@@ -1572,12 +2069,20 @@ const playersAndStats18 = {
     "rush_att": 154,
     "rush_td": 5,
     "rush_yd": 418,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "marshawnlynch": {
+  "Marshawn Lynch": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 24,
     "full_name": "marshawnlynch",
     "first_name": "Marshawn",
@@ -1597,12 +2102,20 @@ const playersAndStats18 = {
     "rush_att": 90,
     "rush_td": 3,
     "rush_yd": 376,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dionlewis": {
+  "Dion Lewis": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 33,
     "full_name": "dionlewis",
     "first_name": "Dion",
@@ -1622,12 +2135,20 @@ const playersAndStats18 = {
     "rush_att": 155,
     "rush_td": 1,
     "rush_yd": 517,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "kamaraiken": {
+  "Kamar Aiken": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "kamaraiken",
     "first_name": "Kamar",
@@ -1647,12 +2168,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "charlesclay": {
+  "Charles Clay": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "charlesclay",
     "first_name": "Charles",
@@ -1672,12 +2201,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "stevanridley": {
+  "Stevan Ridley": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 22,
     "full_name": "stevanridley",
     "first_name": "Stevan",
@@ -1697,12 +2234,20 @@ const playersAndStats18 = {
     "rush_att": 29,
     "rush_td": 1,
     "rush_yd": 80,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "leesmith": {
+  "Lee Smith": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "leesmith",
     "first_name": "Lee",
@@ -1722,13 +2267,21 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "nickbellore": {
+  "Nick Bellore": {
     "fantasy_positions": [
       "RB",
       "LB"
     ],
+    "year": 2018,
     "number": 44,
     "full_name": "nickbellore",
     "first_name": "Nick",
@@ -1748,12 +2301,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jeremykerley": {
+  "Jeremy Kerley": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "jeremykerley",
     "first_name": "Jeremy",
@@ -1773,12 +2334,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "bilalpowell": {
+  "Bilal Powell": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 29,
     "full_name": "bilalpowell",
     "first_name": "Bilal",
@@ -1798,12 +2367,20 @@ const playersAndStats18 = {
     "rush_att": 80,
     "rush_td": 0,
     "rush_yd": 343,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "torreysmith": {
+  "Torrey Smith": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "torreysmith",
     "first_name": "Torrey",
@@ -1823,12 +2400,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tyrodtaylor": {
+  "Tyrod Taylor": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 5,
     "full_name": "tyrodtaylor",
     "first_name": "Tyrod",
@@ -1848,12 +2433,20 @@ const playersAndStats18 = {
     "rush_att": 16,
     "rush_td": 1,
     "rush_yd": 125,
-    "td": 1
+    "td": 1,
+    "pass_td": 2,
+    "pass_int": 2,
+    "pass_cmp": 42,
+    "pass_att": 85,
+    "pass_yd": 473,
+    "pass_inc": 43,
+    "fum_lost": 0
   },
-  "andydalton": {
+  "Andy Dalton": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "andydalton",
     "first_name": "Andy",
@@ -1873,12 +2466,20 @@ const playersAndStats18 = {
     "rush_att": 16,
     "rush_td": 0,
     "rush_yd": 99,
-    "td": 0
+    "td": 0,
+    "pass_td": 21,
+    "pass_int": 11,
+    "pass_cmp": 226,
+    "pass_att": 365,
+    "pass_yd": 2566,
+    "pass_inc": 139,
+    "fum_lost": 0
   },
-  "ajgreen": {
+  "AJ Green": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "ajgreen",
     "first_name": "AJ",
@@ -1898,12 +2499,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "blainegabbert": {
+  "Blaine Gabbert": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "blainegabbert",
     "first_name": "Blaine",
@@ -1923,12 +2532,20 @@ const playersAndStats18 = {
     "rush_att": 6,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 4,
+    "pass_int": 4,
+    "pass_cmp": 61,
+    "pass_att": 101,
+    "pass_yd": 626,
+    "pass_inc": 40,
+    "fum_lost": 0
   },
-  "virgilgreen": {
+  "Virgil Green": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "virgilgreen",
     "first_name": "Virgil",
@@ -1948,12 +2565,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "taiwanjones": {
+  "Taiwan Jones": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 34,
     "full_name": "taiwanjones",
     "first_name": "Taiwan",
@@ -1973,12 +2598,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dwayneharris": {
+  "Dwayne Harris": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "dwayneharris",
     "first_name": "Dwayne",
@@ -1998,12 +2631,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 12,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "nilespaul": {
+  "Niles Paul": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 43,
     "full_name": "nilespaul",
     "first_name": "Niles",
@@ -2023,12 +2664,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -3,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "aldrickrobinson": {
+  "Aldrick Robinson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 8,
     "full_name": "aldrickrobinson",
     "first_name": "Aldrick",
@@ -2048,12 +2697,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "randallcobb": {
+  "Randall Cobb": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "randallcobb",
     "first_name": "Randall",
@@ -2073,12 +2730,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "andreholmes": {
+  "Andre Holmes": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "andreholmes",
     "first_name": "Andre",
@@ -2098,12 +2763,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "kylerudolph": {
+  "Kyle Rudolph": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "kylerudolph",
     "first_name": "Kyle",
@@ -2123,12 +2796,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "juliojones": {
+  "Julio Jones": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "juliojones",
     "first_name": "Julio",
@@ -2148,12 +2829,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 12,
-    "td": 8
+    "td": 8,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "jacquizzrodgers": {
+  "Jacquizz Rodgers": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 37,
     "full_name": "jacquizzrodgers",
     "first_name": "Jacquizz",
@@ -2173,12 +2862,20 @@ const playersAndStats18 = {
     "rush_att": 33,
     "rush_td": 1,
     "rush_yd": 106,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "camnewton": {
+  "Cam Newton": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 1,
     "full_name": "camnewton",
     "first_name": "Cam",
@@ -2198,12 +2895,20 @@ const playersAndStats18 = {
     "rush_att": 101,
     "rush_td": 4,
     "rush_yd": 488,
-    "td": 4
+    "td": 4,
+    "pass_td": 24,
+    "pass_int": 13,
+    "pass_cmp": 320,
+    "pass_att": 471,
+    "pass_yd": 3395,
+    "pass_inc": 151,
+    "fum_lost": 0
   },
-  "markingram": {
+  "Mark Ingram": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 21,
     "full_name": "markingram",
     "first_name": "Mark",
@@ -2223,12 +2928,20 @@ const playersAndStats18 = {
     "rush_att": 138,
     "rush_td": 6,
     "rush_yd": 645,
-    "td": 7
+    "td": 7,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "lukestocker": {
+  "Luke Stocker": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "lukestocker",
     "first_name": "Luke",
@@ -2248,12 +2961,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "lancekendricks": {
+  "Lance Kendricks": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "lancekendricks",
     "first_name": "Lance",
@@ -2273,12 +2994,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dougbaldwin": {
+  "Doug Baldwin": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 89,
     "full_name": "dougbaldwin",
     "first_name": "Doug",
@@ -2298,12 +3027,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "terrellepryor": {
+  "Terrelle Pryor": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "terrellepryor",
     "first_name": "Terrelle",
@@ -2323,12 +3060,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -1,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "nickfoles": {
+  "Nick Foles": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 7,
     "full_name": "nickfoles",
     "first_name": "Nick",
@@ -2348,12 +3093,20 @@ const playersAndStats18 = {
     "rush_att": 9,
     "rush_td": 0,
     "rush_yd": 17,
-    "td": 0
+    "td": 0,
+    "pass_td": 7,
+    "pass_int": 4,
+    "pass_cmp": 141,
+    "pass_att": 195,
+    "pass_yd": 1413,
+    "pass_inc": 54,
+    "fum_lost": 2
   },
-  "brandonbolden": {
+  "Brandon Bolden": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 38,
     "full_name": "brandonbolden",
     "first_name": "Brandon",
@@ -2373,12 +3126,20 @@ const playersAndStats18 = {
     "rush_att": 8,
     "rush_td": 2,
     "rush_yd": 91,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "rishardmatthews": {
+  "Rishard Matthews": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "rishardmatthews",
     "first_name": "Rishard",
@@ -2398,12 +3159,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "lamarmiller": {
+  "Lamar Miller": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 26,
     "full_name": "lamarmiller",
     "first_name": "Lamar",
@@ -2423,12 +3192,20 @@ const playersAndStats18 = {
     "rush_att": 210,
     "rush_td": 5,
     "rush_yd": 973,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "ryantannehill": {
+  "Ryan Tannehill": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "ryantannehill",
     "first_name": "Ryan",
@@ -2448,12 +3225,20 @@ const playersAndStats18 = {
     "rush_att": 32,
     "rush_td": 0,
     "rush_yd": 145,
-    "td": 1
+    "td": 1,
+    "pass_td": 17,
+    "pass_int": 9,
+    "pass_cmp": 176,
+    "pass_att": 274,
+    "pass_yd": 1979,
+    "pass_inc": 98,
+    "fum_lost": 4
   },
-  "deontethompson": {
+  "Deonte Thompson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 1,
     "full_name": "deontethompson",
     "first_name": "Deonte",
@@ -2473,12 +3258,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "orsoncharles": {
+  "Orson Charles": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "orsoncharles",
     "first_name": "Orson",
@@ -2498,12 +3291,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "marvinjones": {
+  "Marvin Jones": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "marvinjones",
     "first_name": "Marvin",
@@ -2523,12 +3324,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mohamedsanu": {
+  "Mohamed Sanu": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "mohamedsanu",
     "first_name": "Mohamed",
@@ -2548,12 +3357,20 @@ const playersAndStats18 = {
     "rush_att": 7,
     "rush_td": 0,
     "rush_yd": 44,
-    "td": 4
+    "td": 4,
+    "pass_td": 1,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 2,
+    "pass_yd": 5,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "travisbenjamin": {
+  "Travis Benjamin": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "travisbenjamin",
     "first_name": "Travis",
@@ -2573,12 +3390,20 @@ const playersAndStats18 = {
     "rush_att": 7,
     "rush_td": 0,
     "rush_yd": 41,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "brandonweeden": {
+  "Brandon Weeden": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 3,
     "full_name": "brandonweeden",
     "first_name": "Brandon",
@@ -2598,12 +3423,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -1,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dwayneallen": {
+  "Dwayne Allen": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 89,
     "full_name": "dwayneallen",
     "first_name": "Dwayne",
@@ -2623,12 +3456,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tyhilton": {
+  "T.Y. Hilton": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "tyhilton",
     "first_name": "T.Y.",
@@ -2648,12 +3489,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "andrewluck": {
+  "Andrew Luck": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "andrewluck",
     "first_name": "Andrew",
@@ -2673,12 +3522,20 @@ const playersAndStats18 = {
     "rush_att": 46,
     "rush_td": 0,
     "rush_yd": 148,
-    "td": 0
+    "td": 0,
+    "pass_td": 39,
+    "pass_int": 15,
+    "pass_cmp": 430,
+    "pass_att": 639,
+    "pass_yd": 4593,
+    "pass_inc": 209,
+    "fum_lost": 1
   },
-  "brockosweiler": {
+  "Brock Osweiler": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 8,
     "full_name": "brockosweiler",
     "first_name": "Brock",
@@ -2698,12 +3555,20 @@ const playersAndStats18 = {
     "rush_att": 8,
     "rush_td": 0,
     "rush_yd": 21,
-    "td": 0
+    "td": 0,
+    "pass_td": 6,
+    "pass_int": 4,
+    "pass_cmp": 113,
+    "pass_att": 178,
+    "pass_yd": 1247,
+    "pass_inc": 65,
+    "fum_lost": 1
   },
-  "rodstreater": {
+  "Rod Streater": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "rodstreater",
     "first_name": "Rod",
@@ -2723,12 +3588,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -11,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "colebeasley": {
+  "Cole Beasley": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "colebeasley",
     "first_name": "Cole",
@@ -2748,12 +3621,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 1,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "alshonjeffery": {
+  "Alshon Jeffery": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "alshonjeffery",
     "first_name": "Alshon",
@@ -2773,12 +3654,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "kirkcousins": {
+  "Kirk Cousins": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 8,
     "full_name": "kirkcousins",
     "first_name": "Kirk",
@@ -2798,12 +3687,20 @@ const playersAndStats18 = {
     "rush_att": 44,
     "rush_td": 1,
     "rush_yd": 123,
-    "td": 1
+    "td": 1,
+    "pass_td": 30,
+    "pass_int": 10,
+    "pass_cmp": 425,
+    "pass_att": 606,
+    "pass_yd": 4298,
+    "pass_inc": 181,
+    "fum_lost": 7
   },
-  "robertgriffiniii": {
+  "Robert Griffin III": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 3,
     "full_name": "robertgriffiniii",
     "first_name": "Robert",
@@ -2823,12 +3720,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 2,
+    "pass_att": 6,
+    "pass_yd": 21,
+    "pass_inc": 2,
+    "fum_lost": 0
   },
-  "alfredmorris": {
+  "Alfred Morris": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 32,
     "full_name": "alfredmorris",
     "first_name": "Alfred",
@@ -2848,12 +3753,20 @@ const playersAndStats18 = {
     "rush_att": 111,
     "rush_td": 2,
     "rush_yd": 428,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "travariscadet": {
+  "Travaris Cadet": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 38,
     "full_name": "travariscadet",
     "first_name": "Travaris",
@@ -2873,12 +3786,20 @@ const playersAndStats18 = {
     "rush_att": 11,
     "rush_td": 0,
     "rush_yd": 17,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dougmartin": {
+  "Doug Martin": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 22,
     "full_name": "dougmartin",
     "first_name": "Doug",
@@ -2898,12 +3819,20 @@ const playersAndStats18 = {
     "rush_att": 172,
     "rush_td": 4,
     "rush_yd": 723,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 3
   },
-  "brianquick": {
+  "Brian Quick": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "brianquick",
     "first_name": "Brian",
@@ -2923,12 +3852,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "rhettellison": {
+  "Rhett Ellison": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "rhettellison",
     "first_name": "Rhett",
@@ -2948,12 +3885,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jariuswright": {
+  "Jarius Wright": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "jariuswright",
     "first_name": "Jarius",
@@ -2973,12 +3918,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 39,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "michaelfloyd": {
+  "Michael Floyd": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "michaelfloyd",
     "first_name": "Michael",
@@ -2998,12 +3951,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "garrettcelek": {
+  "Garrett Celek": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "garrettcelek",
     "first_name": "Garrett",
@@ -3023,12 +3984,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "robertturbin": {
+  "Robert Turbin": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 33,
     "full_name": "robertturbin",
     "first_name": "Robert",
@@ -3048,12 +4017,20 @@ const playersAndStats18 = {
     "rush_att": 4,
     "rush_td": 0,
     "rush_yd": 10,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "russellwilson": {
+  "Russell Wilson": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 3,
     "full_name": "russellwilson",
     "first_name": "Russell",
@@ -3073,12 +4050,20 @@ const playersAndStats18 = {
     "rush_att": 67,
     "rush_td": 0,
     "rush_yd": 376,
-    "td": 0
+    "td": 0,
+    "pass_td": 35,
+    "pass_int": 7,
+    "pass_cmp": 280,
+    "pass_att": 427,
+    "pass_yd": 3448,
+    "pass_inc": 147,
+    "fum_lost": 2
   },
-  "joshgordon": {
+  "Josh Gordon": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "joshgordon",
     "first_name": "Josh",
@@ -3098,13 +4083,21 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "bradleysowell": {
+  "Bradley Sowell": {
     "fantasy_positions": [
       "TE",
       "OL"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "bradleysowell",
     "first_name": "Bradley",
@@ -3124,12 +4117,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jermainekearse": {
+  "Jermaine Kearse": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "jermainekearse",
     "first_name": "Jermaine",
@@ -3149,12 +4150,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "joshbellamy": {
+  "Josh Bellamy": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "joshbellamy",
     "first_name": "Josh",
@@ -3174,12 +4183,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "chrishogan": {
+  "Chris Hogan": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "chrishogan",
     "first_name": "Chris",
@@ -3199,12 +4216,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "russellshepard": {
+  "Russell Shepard": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "russellshepard",
     "first_name": "Russell",
@@ -3224,12 +4249,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mattbarkley": {
+  "Matt Barkley": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 5,
     "full_name": "mattbarkley",
     "first_name": "Matt",
@@ -3249,12 +4282,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": -2,
-    "td": 0
+    "td": 0,
+    "pass_td": 2,
+    "pass_int": 0,
+    "pass_cmp": 15,
+    "pass_att": 25,
+    "pass_yd": 232,
+    "pass_inc": 10,
+    "fum_lost": 0
   },
-  "zachertz": {
+  "Zach Ertz": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 86,
     "full_name": "zachertz",
     "first_name": "Zach",
@@ -3274,12 +4315,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 8
+    "td": 8,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "marquisegoodwin": {
+  "Marquise Goodwin": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "marquisegoodwin",
     "first_name": "Marquise",
@@ -3299,12 +4348,20 @@ const playersAndStats18 = {
     "rush_att": 4,
     "rush_td": 0,
     "rush_yd": 9,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "robertwoods": {
+  "Robert Woods": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "robertwoods",
     "first_name": "Robert",
@@ -3324,12 +4381,20 @@ const playersAndStats18 = {
     "rush_att": 19,
     "rush_td": 1,
     "rush_yd": 157,
-    "td": 7
+    "td": 7,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mikegillislee": {
+  "Mike Gillislee": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 25,
     "full_name": "mikegillislee",
     "first_name": "Mike",
@@ -3349,12 +4414,20 @@ const playersAndStats18 = {
     "rush_att": 16,
     "rush_td": 0,
     "rush_yd": 43,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "dionsims": {
+  "Dion Sims": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "dionsims",
     "first_name": "Dion",
@@ -3374,12 +4447,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "genosmith": {
+  "Geno Smith": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 7,
     "full_name": "genosmith",
     "first_name": "Geno",
@@ -3399,12 +4480,20 @@ const playersAndStats18 = {
     "rush_att": 8,
     "rush_td": 0,
     "rush_yd": 2,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 4,
+    "pass_yd": 8,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "giovanibernard": {
+  "Giovani Bernard": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 25,
     "full_name": "giovanibernard",
     "first_name": "Giovani",
@@ -3424,12 +4513,20 @@ const playersAndStats18 = {
     "rush_att": 56,
     "rush_td": 3,
     "rush_yd": 211,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "rexburkhead": {
+  "Rex Burkhead": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 34,
     "full_name": "rexburkhead",
     "first_name": "Rex",
@@ -3449,12 +4546,20 @@ const playersAndStats18 = {
     "rush_att": 57,
     "rush_td": 0,
     "rush_yd": 186,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "tylereifert": {
+  "Tyler Eifert": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "tylereifert",
     "first_name": "Tyler",
@@ -3474,12 +4579,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "markuswheaton": {
+  "Markus Wheaton": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "markuswheaton",
     "first_name": "Markus",
@@ -3499,12 +4612,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "justinhunter": {
+  "Justin Hunter": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "justinhunter",
     "first_name": "Justin",
@@ -3524,12 +4645,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "ryangriffin": {
+  "Ryan Griffin": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "ryangriffin",
     "first_name": "Ryan",
@@ -3549,12 +4678,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "deandrehopkins": {
+  "DeAndre Hopkins": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "deandrehopkins",
     "first_name": "DeAndre",
@@ -3574,12 +4711,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -7,
-    "td": 11
+    "td": 11,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 1,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "cjanderson": {
+  "CJ Anderson": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 26,
     "full_name": "cjanderson",
     "first_name": "CJ",
@@ -3599,12 +4744,20 @@ const playersAndStats18 = {
     "rush_att": 67,
     "rush_td": 2,
     "rush_yd": 403,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "traviskelce": {
+  "Travis Kelce": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "traviskelce",
     "first_name": "Travis",
@@ -3624,12 +4777,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 10
+    "td": 10,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "bricebutler": {
+  "Brice Butler": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "bricebutler",
     "first_name": "Brice",
@@ -3649,12 +4810,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "lataviusmurray": {
+  "Latavius Murray": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 28,
     "full_name": "lataviusmurray",
     "first_name": "Latavius",
@@ -3674,12 +4843,20 @@ const playersAndStats18 = {
     "rush_att": 140,
     "rush_td": 6,
     "rush_yd": 578,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "keenanallen": {
+  "Keenan Allen": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "keenanallen",
     "first_name": "Keenan",
@@ -3699,12 +4876,20 @@ const playersAndStats18 = {
     "rush_att": 9,
     "rush_td": 0,
     "rush_yd": 75,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "terrancewilliams": {
+  "Terrance Williams": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "terrancewilliams",
     "first_name": "Terrance",
@@ -3724,12 +4909,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jordanreed": {
+  "Jordan Reed": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 86,
     "full_name": "jordanreed",
     "first_name": "Jordan",
@@ -3749,12 +4942,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "christhompson": {
+  "Chris Thompson": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 25,
     "full_name": "christhompson",
     "first_name": "Chris",
@@ -3774,12 +4975,20 @@ const playersAndStats18 = {
     "rush_att": 43,
     "rush_td": 0,
     "rush_yd": 178,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "theoriddick": {
+  "Theo Riddick": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 27,
     "full_name": "theoriddick",
     "first_name": "Theo",
@@ -3799,13 +5008,21 @@ const playersAndStats18 = {
     "rush_att": 40,
     "rush_td": 0,
     "rush_yd": 171,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "cordarrellepatterson": {
+  "Cordarrelle Patterson": {
     "fantasy_positions": [
       "WR",
       "RB"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "cordarrellepatterson",
     "first_name": "Cordarrelle",
@@ -3825,12 +5042,20 @@ const playersAndStats18 = {
     "rush_att": 42,
     "rush_td": 1,
     "rush_yd": 228,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "kenjonbarner": {
+  "Kenjon Barner": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 38,
     "full_name": "kenjonbarner",
     "first_name": "Kenjon",
@@ -3850,12 +5075,20 @@ const playersAndStats18 = {
     "rush_att": 19,
     "rush_td": 0,
     "rush_yd": 71,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "kennystills": {
+  "Kenny Stills": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "kennystills",
     "first_name": "Kenny",
@@ -3875,12 +5108,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 6
+    "td": 6,
+    "pass_td": 1,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 1,
+    "pass_yd": 3,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mikeglennon": {
+  "Mike Glennon": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 7,
     "full_name": "mikeglennon",
     "first_name": "Mike",
@@ -3900,12 +5141,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 1,
+    "pass_int": 0,
+    "pass_cmp": 15,
+    "pass_att": 21,
+    "pass_yd": 174,
+    "pass_inc": 6,
+    "fum_lost": 0
   },
-  "benjamincunningham": {
+  "Benjamin Cunningham": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 29,
     "full_name": "benjamincunningham",
     "first_name": "Benjamin",
@@ -3925,13 +5174,21 @@ const playersAndStats18 = {
     "rush_att": 11,
     "rush_td": 0,
     "rush_yd": 20,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tavonaustin": {
+  "Tavon Austin": {
     "fantasy_positions": [
       "WR",
       "RB"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "tavonaustin",
     "first_name": "Tavon",
@@ -3951,12 +5208,20 @@ const playersAndStats18 = {
     "rush_att": 6,
     "rush_td": 0,
     "rush_yd": 55,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "vancemcdonald": {
+  "Vance McDonald": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 89,
     "full_name": "vancemcdonald",
     "first_name": "Vance",
@@ -3976,12 +5241,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "darrenfells": {
+  "Darren Fells": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "darrenfells",
     "first_name": "Darren",
@@ -4001,12 +5274,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "christinemichael": {
+  "Christine Michael": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 38,
     "full_name": "christinemichael",
     "first_name": "Christine",
@@ -4026,12 +5307,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 9,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "spencerware": {
+  "Spencer Ware": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 40,
     "full_name": "spencerware",
     "first_name": "Spencer",
@@ -4051,12 +5340,20 @@ const playersAndStats18 = {
     "rush_att": 51,
     "rush_td": 2,
     "rush_yd": 246,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "lukewillson": {
+  "Luke Willson": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "lukewillson",
     "first_name": "Luke",
@@ -4076,12 +5373,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "nickwilliams": {
+  "Nick Williams": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 86,
     "full_name": "nickwilliams",
     "first_name": "Nick",
@@ -4101,12 +5406,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "demetriusharris": {
+  "Demetrius Harris": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "demetriusharris",
     "first_name": "Demetrius",
@@ -4126,12 +5439,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "levinetoilolo": {
+  "Levine Toilolo": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "levinetoilolo",
     "first_name": "Levine",
@@ -4151,12 +5472,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jaronbrown": {
+  "Jaron Brown": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "jaronbrown",
     "first_name": "Jaron",
@@ -4176,12 +5505,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "adamthielen": {
+  "Adam Thielen": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "adamthielen",
     "first_name": "Adam",
@@ -4201,12 +5538,20 @@ const playersAndStats18 = {
     "rush_att": 5,
     "rush_td": 0,
     "rush_yd": 30,
-    "td": 9
+    "td": 9,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "jackdoyle": {
+  "Jack Doyle": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "jackdoyle",
     "first_name": "Jack",
@@ -4226,12 +5571,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "derekcarrier": {
+  "Derek Carrier": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "derekcarrier",
     "first_name": "Derek",
@@ -4251,12 +5604,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "casekeenum": {
+  "Case Keenum": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 8,
     "full_name": "casekeenum",
     "first_name": "Case",
@@ -4276,12 +5637,20 @@ const playersAndStats18 = {
     "rush_att": 26,
     "rush_td": 2,
     "rush_yd": 93,
-    "td": 2
+    "td": 2,
+    "pass_td": 18,
+    "pass_int": 15,
+    "pass_cmp": 365,
+    "pass_att": 586,
+    "pass_yd": 3890,
+    "pass_inc": 221,
+    "fum_lost": 2
   },
-  "joshhill": {
+  "Josh Hill": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 89,
     "full_name": "joshhill",
     "first_name": "Josh",
@@ -4301,12 +5670,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "treyburton": {
+  "Trey Burton": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "treyburton",
     "first_name": "Trey",
@@ -4326,12 +5703,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 2,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "davidfluellen": {
+  "David Fluellen": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 32,
     "full_name": "davidfluellen",
     "first_name": "David",
@@ -4351,12 +5736,20 @@ const playersAndStats18 = {
     "rush_att": 4,
     "rush_td": 0,
     "rush_yd": 16,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jordanmatthews": {
+  "Jordan Matthews": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "jordanmatthews",
     "first_name": "Jordan",
@@ -4376,12 +5769,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "sammywatkins": {
+  "Sammy Watkins": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "sammywatkins",
     "first_name": "Sammy",
@@ -4401,12 +5802,20 @@ const playersAndStats18 = {
     "rush_att": 5,
     "rush_td": 0,
     "rush_yd": 52,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jarvislandry": {
+  "Jarvis Landry": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "jarvislandry",
     "first_name": "Jarvis",
@@ -4426,12 +5835,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 1,
     "rush_yd": 60,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 2,
+    "pass_yd": 63,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "damienwilliams": {
+  "Damien Williams": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 26,
     "full_name": "damienwilliams",
     "first_name": "Damien",
@@ -4451,12 +5868,20 @@ const playersAndStats18 = {
     "rush_att": 50,
     "rush_td": 4,
     "rush_yd": 256,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "jimmygaroppolo": {
+  "Jimmy Garoppolo": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "jimmygaroppolo",
     "first_name": "Jimmy",
@@ -4476,12 +5901,20 @@ const playersAndStats18 = {
     "rush_att": 8,
     "rush_td": 0,
     "rush_yd": 33,
-    "td": 0
+    "td": 0,
+    "pass_td": 5,
+    "pass_int": 3,
+    "pass_cmp": 53,
+    "pass_att": 89,
+    "pass_yd": 718,
+    "pass_inc": 36,
+    "fum_lost": 0
   },
-  "jameswhite": {
+  "James White": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 28,
     "full_name": "jameswhite",
     "first_name": "James",
@@ -4501,12 +5934,20 @@ const playersAndStats18 = {
     "rush_att": 94,
     "rush_td": 5,
     "rush_yd": 425,
-    "td": 12
+    "td": 12,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "quincyenunwa": {
+  "Quincy Enunwa": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "quincyenunwa",
     "first_name": "Quincy",
@@ -4526,12 +5967,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "ryanhewitt": {
+  "Ryan Hewitt": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "ryanhewitt",
     "first_name": "Ryan",
@@ -4551,12 +6000,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jeremyhill": {
+  "Jeremy Hill": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 33,
     "full_name": "jeremyhill",
     "first_name": "Jeremy",
@@ -4576,12 +6033,20 @@ const playersAndStats18 = {
     "rush_att": 4,
     "rush_td": 0,
     "rush_yd": 25,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "ajmccarron": {
+  "AJ McCarron": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 2,
     "full_name": "ajmccarron",
     "first_name": "AJ",
@@ -4601,12 +6066,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": -2,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 3,
+    "pass_yd": 8,
+    "pass_inc": 2,
+    "fum_lost": 0
   },
-  "isaiahcrowell": {
+  "Isaiah Crowell": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 22,
     "full_name": "isaiahcrowell",
     "first_name": "Isaiah",
@@ -4626,12 +6099,20 @@ const playersAndStats18 = {
     "rush_att": 143,
     "rush_td": 6,
     "rush_yd": 685,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "taylorgabriel": {
+  "Taylor Gabriel": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "taylorgabriel",
     "first_name": "Taylor",
@@ -4651,12 +6132,20 @@ const playersAndStats18 = {
     "rush_att": 9,
     "rush_td": 0,
     "rush_yd": 61,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "williesnead": {
+  "Willie Snead": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "williesnead",
     "first_name": "Willie",
@@ -4676,12 +6165,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 13,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "martavisbryant": {
+  "Martavis Bryant": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "martavisbryant",
     "first_name": "Martavis",
@@ -4701,12 +6198,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 23,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "alfredblue": {
+  "Alfred Blue": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 23,
     "full_name": "alfredblue",
     "first_name": "Alfred",
@@ -4726,12 +6231,20 @@ const playersAndStats18 = {
     "rush_att": 150,
     "rush_td": 2,
     "rush_yd": 499,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dontemoncrief": {
+  "Donte Moncrief": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "dontemoncrief",
     "first_name": "Donte",
@@ -4751,12 +6264,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "erikswoope": {
+  "Erik Swoope": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 86,
     "full_name": "erikswoope",
     "first_name": "Erik",
@@ -4776,12 +6297,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "blakebortles": {
+  "Blake Bortles": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 5,
     "full_name": "blakebortles",
     "first_name": "Blake",
@@ -4801,12 +6330,20 @@ const playersAndStats18 = {
     "rush_att": 58,
     "rush_td": 1,
     "rush_yd": 365,
-    "td": 1
+    "td": 1,
+    "pass_td": 13,
+    "pass_int": 11,
+    "pass_cmp": 243,
+    "pass_att": 403,
+    "pass_yd": 2718,
+    "pass_inc": 160,
+    "fum_lost": 4
   },
-  "allenhurns": {
+  "Allen Hurns": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "allenhurns",
     "first_name": "Allen",
@@ -4826,12 +6363,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "allenrobinson": {
+  "Allen Robinson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "allenrobinson",
     "first_name": "Allen",
@@ -4851,12 +6396,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 9,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "kapribibbs": {
+  "Kapri Bibbs": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 22,
     "full_name": "kapribibbs",
     "first_name": "Kapri",
@@ -4876,12 +6429,20 @@ const playersAndStats18 = {
     "rush_att": 21,
     "rush_td": 3,
     "rush_yd": 103,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "benniefowler": {
+  "Bennie Fowler": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "benniefowler",
     "first_name": "Bennie",
@@ -4901,12 +6462,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "codylatimer": {
+  "Cody Latimer": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "codylatimer",
     "first_name": "Cody",
@@ -4926,12 +6495,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "deanthonythomas": {
+  "De'Anthony Thomas": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "deanthonythomas",
     "first_name": "De'Anthony",
@@ -4951,12 +6528,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 6,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "charcandrickwest": {
+  "Charcandrick West": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 36,
     "full_name": "charcandrickwest",
     "first_name": "Charcandrick",
@@ -4976,12 +6561,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": -1,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "albertwilson": {
+  "Albert Wilson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "albertwilson",
     "first_name": "Albert",
@@ -5001,12 +6594,20 @@ const playersAndStats18 = {
     "rush_att": 8,
     "rush_td": 0,
     "rush_yd": 16,
-    "td": 4
+    "td": 4,
+    "pass_td": 1,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 1,
+    "pass_yd": 52,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "derekcarr": {
+  "Derek Carr": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 4,
     "full_name": "derekcarr",
     "first_name": "Derek",
@@ -5026,12 +6627,20 @@ const playersAndStats18 = {
     "rush_att": 24,
     "rush_td": 1,
     "rush_yd": 47,
-    "td": 1
+    "td": 1,
+    "pass_td": 19,
+    "pass_int": 10,
+    "pass_cmp": 381,
+    "pass_att": 553,
+    "pass_yd": 4049,
+    "pass_inc": 172,
+    "fum_lost": 7
   },
-  "sethroberts": {
+  "Seth Roberts": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "sethroberts",
     "first_name": "Seth",
@@ -5051,12 +6660,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 5,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "scottsimonson": {
+  "Scott Simonson": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "scottsimonson",
     "first_name": "Scott",
@@ -5076,12 +6693,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "odellbeckhamjr": {
+  "Odell Beckham Jr": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "odellbeckhamjr",
     "first_name": "Odell",
@@ -5101,12 +6726,20 @@ const playersAndStats18 = {
     "rush_att": 5,
     "rush_td": 0,
     "rush_yd": 19,
-    "td": 6
+    "td": 6,
+    "pass_td": 2,
+    "pass_int": 0,
+    "pass_cmp": 2,
+    "pass_att": 2,
+    "pass_yd": 106,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "xaviergrimble": {
+  "Xavier Grimble": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "xaviergrimble",
     "first_name": "Xavier",
@@ -5126,12 +6759,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "ryangrant": {
+  "Ryan Grant": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "ryangrant",
     "first_name": "Ryan",
@@ -5151,12 +6792,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "senoriseperry": {
+  "Senorise Perry": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 32,
     "full_name": "senoriseperry",
     "first_name": "Senorise",
@@ -5176,12 +6825,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "ericebron": {
+  "Eric Ebron": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "ericebron",
     "first_name": "Eric",
@@ -5201,12 +6858,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 1,
     "rush_yd": -8,
-    "td": 14
+    "td": 14,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 1,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "tjjones": {
+  "TJ Jones": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "tjjones",
     "first_name": "TJ",
@@ -5226,12 +6891,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "davanteadams": {
+  "Davante Adams": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "davanteadams",
     "first_name": "Davante",
@@ -5251,12 +6924,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 13
+    "td": 13,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "richardrodgers": {
+  "Richard Rodgers": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "richardrodgers",
     "first_name": "Richard",
@@ -5276,12 +6957,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "teddybridgewater": {
+  "Teddy Bridgewater": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 5,
     "full_name": "teddybridgewater",
     "first_name": "Teddy",
@@ -5301,12 +6990,20 @@ const playersAndStats18 = {
     "rush_att": 11,
     "rush_td": 0,
     "rush_yd": 5,
-    "td": 0
+    "td": 0,
+    "pass_td": 1,
+    "pass_int": 1,
+    "pass_cmp": 14,
+    "pass_att": 23,
+    "pass_yd": 118,
+    "pass_inc": 8,
+    "fum_lost": 0
   },
-  "devontafreeman": {
+  "Devonta Freeman": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 24,
     "full_name": "devontafreeman",
     "first_name": "Devonta",
@@ -5326,12 +7023,20 @@ const playersAndStats18 = {
     "rush_att": 14,
     "rush_td": 0,
     "rush_yd": 68,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "freddiemartino": {
+  "Freddie Martino": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 16,
     "full_name": "freddiemartino",
     "first_name": "Freddie",
@@ -5351,12 +7056,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "rooseveltnix": {
+  "Roosevelt Nix": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 45,
     "full_name": "rooseveltnix",
     "first_name": "Roosevelt",
@@ -5376,12 +7089,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 4,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "kelvinbenjamin": {
+  "Kelvin Benjamin": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "kelvinbenjamin",
     "first_name": "Kelvin",
@@ -5401,12 +7122,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "brandincooks": {
+  "Brandin Cooks": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "brandincooks",
     "first_name": "Brandin",
@@ -5426,12 +7155,20 @@ const playersAndStats18 = {
     "rush_att": 10,
     "rush_td": 1,
     "rush_yd": 68,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "cameronbrate": {
+  "Cameron Brate": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "cameronbrate",
     "first_name": "Cameron",
@@ -5451,12 +7188,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "mikeevans": {
+  "Mike Evans": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "mikeevans",
     "first_name": "Mike",
@@ -5476,12 +7221,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 1,
     "rush_yd": 0,
-    "td": 9
+    "td": 9,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "austinseferianjenkins": {
+  "Austin Seferian-Jenkins": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "austinseferianjenkins",
     "first_name": "Austin",
@@ -5501,12 +7254,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "garrettgilbert": {
+  "Garrett Gilbert": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 3,
     "full_name": "garrettgilbert",
     "first_name": "Garrett",
@@ -5526,12 +7287,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 2,
+    "pass_att": 3,
+    "pass_yd": 40,
+    "pass_inc": 1,
+    "fum_lost": 0
   },
-  "johnbrown": {
+  "John Brown": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "johnbrown",
     "first_name": "John",
@@ -5551,13 +7320,21 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 4,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "loganthomas": {
+  "Logan Thomas": {
     "fantasy_positions": [
       "TE",
       "QB"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "loganthomas",
     "first_name": "Logan",
@@ -5577,12 +7354,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 1,
+    "pass_yd": 15,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "bruceellington": {
+  "Bruce Ellington": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "bruceellington",
     "first_name": "Bruce",
@@ -5602,12 +7387,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 2,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 1,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "carloshyde": {
+  "Carlos Hyde": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 23,
     "full_name": "carloshyde",
     "first_name": "Carlos",
@@ -5627,12 +7420,20 @@ const playersAndStats18 = {
     "rush_att": 172,
     "rush_td": 5,
     "rush_yd": 571,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "paulrichardson": {
+  "Paul Richardson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "paulrichardson",
     "first_name": "Paul",
@@ -5652,12 +7453,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 9,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dontrelleinman": {
+  "Dontrelle Inman": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "dontrelleinman",
     "first_name": "Dontrelle",
@@ -5677,12 +7486,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jeromecunningham": {
+  "Jerome Cunningham": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "jeromecunningham",
     "first_name": "Jerome",
@@ -5702,12 +7519,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jameiswinston": {
+  "Jameis Winston": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 3,
     "full_name": "jameiswinston",
     "first_name": "Jameis",
@@ -5727,12 +7552,20 @@ const playersAndStats18 = {
     "rush_att": 49,
     "rush_td": 1,
     "rush_yd": 281,
-    "td": 1
+    "td": 1,
+    "pass_td": 19,
+    "pass_int": 14,
+    "pass_cmp": 244,
+    "pass_att": 378,
+    "pass_yd": 2992,
+    "pass_inc": 134,
+    "fum_lost": 3
   },
-  "marcusmariota": {
+  "Marcus Mariota": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 8,
     "full_name": "marcusmariota",
     "first_name": "Marcus",
@@ -5752,12 +7585,20 @@ const playersAndStats18 = {
     "rush_att": 64,
     "rush_td": 2,
     "rush_yd": 357,
-    "td": 2
+    "td": 2,
+    "pass_td": 11,
+    "pass_int": 8,
+    "pass_cmp": 228,
+    "pass_att": 331,
+    "pass_yd": 2528,
+    "pass_inc": 103,
+    "fum_lost": 2
   },
-  "amaricooper": {
+  "Amari Cooper": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "amaricooper",
     "first_name": "Amari",
@@ -5777,12 +7618,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 20,
-    "td": 7
+    "td": 7,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "kevinwhite": {
+  "Kevin White": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "kevinwhite",
     "first_name": "Kevin",
@@ -5802,12 +7651,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "toddgurley": {
+  "Todd Gurley": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 30,
     "full_name": "toddgurley",
     "first_name": "Todd",
@@ -5827,12 +7684,20 @@ const playersAndStats18 = {
     "rush_att": 256,
     "rush_td": 17,
     "rush_yd": 1251,
-    "td": 21
+    "td": 21,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "devanteparker": {
+  "Devante Parker": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "devanteparker",
     "first_name": "Devante",
@@ -5852,12 +7717,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "melvingordon": {
+  "Melvin Gordon": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 25,
     "full_name": "melvingordon",
     "first_name": "Melvin",
@@ -5877,12 +7750,20 @@ const playersAndStats18 = {
     "rush_att": 175,
     "rush_td": 10,
     "rush_yd": 885,
-    "td": 14
+    "td": 14,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "nelsonagholor": {
+  "Nelson Agholor": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "nelsonagholor",
     "first_name": "Nelson",
@@ -5902,12 +7783,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 32,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 1,
+    "pass_yd": 15,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "breshadperriman": {
+  "Breshad Perriman": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "breshadperriman",
     "first_name": "Breshad",
@@ -5927,12 +7816,20 @@ const playersAndStats18 = {
     "rush_att": 4,
     "rush_td": 0,
     "rush_yd": 2,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "phillipdorsett": {
+  "Phillip Dorsett": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "phillipdorsett",
     "first_name": "Phillip",
@@ -5952,12 +7849,20 @@ const playersAndStats18 = {
     "rush_att": 4,
     "rush_td": 0,
     "rush_yd": 29,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tjyeldon": {
+  "TJ Yeldon": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 22,
     "full_name": "tjyeldon",
     "first_name": "TJ",
@@ -5977,12 +7882,20 @@ const playersAndStats18 = {
     "rush_att": 104,
     "rush_td": 1,
     "rush_yd": 414,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "devinfunchess": {
+  "Devin Funchess": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "devinfunchess",
     "first_name": "Devin",
@@ -6002,12 +7915,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "ameerabdullah": {
+  "Ameer Abdullah": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 31,
     "full_name": "ameerabdullah",
     "first_name": "Ameer",
@@ -6027,12 +7948,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 1,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "maxxwilliams": {
+  "Maxx Williams": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "maxxwilliams",
     "first_name": "Maxx",
@@ -6052,12 +7981,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 8,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "clivewalford": {
+  "Clive Walford": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "clivewalford",
     "first_name": "Clive",
@@ -6077,12 +8014,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tylerlockett": {
+  "Tyler Lockett": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 16,
     "full_name": "tylerlockett",
     "first_name": "Tyler",
@@ -6102,12 +8047,20 @@ const playersAndStats18 = {
     "rush_att": 13,
     "rush_td": 0,
     "rush_yd": 69,
-    "td": 10
+    "td": 10,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tevincoleman": {
+  "Tevin Coleman": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 26,
     "full_name": "tevincoleman",
     "first_name": "Tevin",
@@ -6127,12 +8080,20 @@ const playersAndStats18 = {
     "rush_att": 167,
     "rush_td": 4,
     "rush_yd": 800,
-    "td": 9
+    "td": 9,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "chrisconley": {
+  "Chris Conley": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "chrisconley",
     "first_name": "Chris",
@@ -6152,12 +8113,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "dukejohnson": {
+  "Duke Johnson": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 25,
     "full_name": "dukejohnson",
     "first_name": "Duke",
@@ -6177,12 +8146,20 @@ const playersAndStats18 = {
     "rush_att": 40,
     "rush_td": 0,
     "rush_yd": 201,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tylerkroft": {
+  "Tyler Kroft": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "tylerkroft",
     "first_name": "Tyler",
@@ -6202,12 +8179,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "davidjohnson": {
+  "David Johnson": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 31,
     "full_name": "davidjohnson",
     "first_name": "David",
@@ -6227,12 +8212,20 @@ const playersAndStats18 = {
     "rush_att": 258,
     "rush_td": 7,
     "rush_yd": 940,
-    "td": 10
+    "td": 10,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "sammiecoates": {
+  "Sammie Coates": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "sammiecoates",
     "first_name": "Sammie",
@@ -6252,12 +8245,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "seanmannion": {
+  "Sean Mannion": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 4,
     "full_name": "seanmannion",
     "first_name": "Sean",
@@ -6277,12 +8278,20 @@ const playersAndStats18 = {
     "rush_att": 7,
     "rush_td": 0,
     "rush_yd": -9,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 2,
+    "pass_att": 3,
+    "pass_yd": 23,
+    "pass_inc": 1,
+    "fum_lost": 0
   },
-  "jeffheuerman": {
+  "Jeff Heuerman": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "jeffheuerman",
     "first_name": "Jeff",
@@ -6302,12 +8311,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tymontgomery": {
+  "Ty Montgomery": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "tymontgomery",
     "first_name": "Ty",
@@ -6327,12 +8344,20 @@ const playersAndStats18 = {
     "rush_att": 41,
     "rush_td": 1,
     "rush_yd": 188,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "jamisoncrowder": {
+  "Jamison Crowder": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "jamisoncrowder",
     "first_name": "Jamison",
@@ -6352,12 +8377,20 @@ const playersAndStats18 = {
     "rush_att": 4,
     "rush_td": 0,
     "rush_yd": 30,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jeremylangford": {
+  "Jeremy Langford": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 43,
     "full_name": "jeremylangford",
     "first_name": "Jeremy",
@@ -6377,12 +8410,20 @@ const playersAndStats18 = {
     "rush_att": 9,
     "rush_td": 0,
     "rush_yd": 25,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "justinhardy": {
+  "Justin Hardy": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "justinhardy",
     "first_name": "Justin",
@@ -6402,12 +8443,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "blakebell": {
+  "Blake Bell": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "blakebell",
     "first_name": "Blake",
@@ -6427,12 +8476,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "javoriusallen": {
+  "Javorius Allen": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 37,
     "full_name": "javoriusallen",
     "first_name": "Javorius",
@@ -6452,12 +8509,20 @@ const playersAndStats18 = {
     "rush_att": 41,
     "rush_td": 3,
     "rush_yd": 110,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "mikedavis": {
+  "Mike Davis": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 25,
     "full_name": "mikedavis",
     "first_name": "Mike",
@@ -6477,12 +8542,20 @@ const playersAndStats18 = {
     "rush_att": 112,
     "rush_td": 4,
     "rush_yd": 514,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "rashadgreene": {
+  "Rashad Greene": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "rashadgreene",
     "first_name": "Rashad",
@@ -6502,12 +8575,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "mycolepruitt": {
+  "MyCole Pruitt": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "mycolepruitt",
     "first_name": "MyCole",
@@ -6527,12 +8608,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "stefondiggs": {
+  "Stefon Diggs": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "stefondiggs",
     "first_name": "Stefon",
@@ -6552,12 +8641,20 @@ const playersAndStats18 = {
     "rush_att": 10,
     "rush_td": 0,
     "rush_yd": 62,
-    "td": 9
+    "td": 9,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jayajayi": {
+  "Jay Ajayi": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 26,
     "full_name": "jayajayi",
     "first_name": "Jay",
@@ -6577,12 +8674,20 @@ const playersAndStats18 = {
     "rush_att": 45,
     "rush_td": 3,
     "rush_yd": 184,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "tonylippett": {
+  "Tony Lippett": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 39,
     "full_name": "tonylippett",
     "first_name": "Tony",
@@ -6602,12 +8707,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "cjuzomah": {
+  "CJ Uzomah": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "cjuzomah",
     "first_name": "CJ",
@@ -6627,12 +8740,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jjnelson": {
+  "JJ Nelson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "jjnelson",
     "first_name": "JJ",
@@ -6652,12 +8773,20 @@ const playersAndStats18 = {
     "rush_att": 4,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jessejames": {
+  "Jesse James": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "jessejames",
     "first_name": "Jesse",
@@ -6677,12 +8806,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "nickboyle": {
+  "Nick Boyle": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 86,
     "full_name": "nickboyle",
     "first_name": "Nick",
@@ -6702,12 +8839,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jamesoshaughnessy": {
+  "James O'Shaughnessy": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "jamesoshaughnessy",
     "first_name": "James",
@@ -6727,12 +8872,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "cameronartispayne": {
+  "Cameron Artis-Payne": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 34,
     "full_name": "cameronartispayne",
     "first_name": "Cameron",
@@ -6752,12 +8905,20 @@ const playersAndStats18 = {
     "rush_att": 19,
     "rush_td": 1,
     "rush_yd": 69,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "kaelinclay": {
+  "Kaelin Clay": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "kaelinclay",
     "first_name": "Kaelin",
@@ -6777,12 +8938,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "geremydavis": {
+  "Geremy Davis": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "geremydavis",
     "first_name": "Geremy",
@@ -6802,12 +8971,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "nickoleary": {
+  "Nick O'Leary": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "nickoleary",
     "first_name": "Nick",
@@ -6827,12 +9004,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "ajderby": {
+  "AJ Derby": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "ajderby",
     "first_name": "AJ",
@@ -6852,12 +9037,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "darrenwaller": {
+  "Darren Waller": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "darrenwaller",
     "first_name": "Darren",
@@ -6877,13 +9070,21 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 21,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "nealsterling": {
+  "Neal Sterling": {
     "fantasy_positions": [
       "WR",
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "nealsterling",
     "first_name": "Neal",
@@ -6903,12 +9104,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "benkoyack": {
+  "Ben Koyack": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "benkoyack",
     "first_name": "Ben",
@@ -6928,12 +9137,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "marcusmurphy": {
+  "Marcus Murphy": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 22,
     "full_name": "marcusmurphy",
     "first_name": "Marcus",
@@ -6953,12 +9170,20 @@ const playersAndStats18 = {
     "rush_att": 52,
     "rush_td": 0,
     "rush_yd": 250,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "geoffswaim": {
+  "Geoff Swaim": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "geoffswaim",
     "first_name": "Geoff",
@@ -6978,12 +9203,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "zachzenner": {
+  "Zach Zenner": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 34,
     "full_name": "zachzenner",
     "first_name": "Zach",
@@ -7003,12 +9236,20 @@ const playersAndStats18 = {
     "rush_att": 55,
     "rush_td": 3,
     "rush_yd": 265,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tyrellwilliams": {
+  "Tyrell Williams": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 16,
     "full_name": "tyrellwilliams",
     "first_name": "Tyrell",
@@ -7028,12 +9269,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 15,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "thomasrawls": {
+  "Thomas Rawls": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 34,
     "full_name": "thomasrawls",
     "first_name": "Thomas",
@@ -7053,12 +9302,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "malcolmbrown": {
+  "Malcolm Brown": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 34,
     "full_name": "malcolmbrown",
     "first_name": "Malcolm",
@@ -7078,12 +9335,20 @@ const playersAndStats18 = {
     "rush_att": 43,
     "rush_td": 0,
     "rush_yd": 212,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dariusjennings": {
+  "Darius Jennings": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "dariusjennings",
     "first_name": "Darius",
@@ -7103,12 +9368,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 2,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 1,
+    "pass_yd": 21,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "brianparker": {
+  "Brian Parker": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 89,
     "full_name": "brianparker",
     "first_name": "Brian",
@@ -7128,12 +9401,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "damierebyrd": {
+  "Damiere Byrd": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "damierebyrd",
     "first_name": "Damiere",
@@ -7153,12 +9434,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "kharilee": {
+  "Khari Lee": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "kharilee",
     "first_name": "Khari",
@@ -7178,12 +9467,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "cameronmeredith": {
+  "Cameron Meredith": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "cameronmeredith",
     "first_name": "Cameron",
@@ -7203,12 +9500,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "taylorheinicke": {
+  "Taylor Heinicke": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 6,
     "full_name": "taylorheinicke",
     "first_name": "Taylor",
@@ -7228,12 +9533,20 @@ const playersAndStats18 = {
     "rush_att": 5,
     "rush_td": 0,
     "rush_yd": 31,
-    "td": 0
+    "td": 0,
+    "pass_td": 1,
+    "pass_int": 3,
+    "pass_cmp": 35,
+    "pass_att": 57,
+    "pass_yd": 320,
+    "pass_inc": 20,
+    "fum_lost": 0
   },
-  "gabeholmes": {
+  "Gabe Holmes": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 47,
     "full_name": "gabeholmes",
     "first_name": "Gabe",
@@ -7253,12 +9566,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "coreygrant": {
+  "Corey Grant": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 30,
     "full_name": "coreygrant",
     "first_name": "Corey",
@@ -7278,12 +9599,20 @@ const playersAndStats18 = {
     "rush_att": 13,
     "rush_td": 0,
     "rush_yd": 40,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "raheemmostert": {
+  "Raheem Mostert": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 31,
     "full_name": "raheemmostert",
     "first_name": "Raheem",
@@ -7303,12 +9632,20 @@ const playersAndStats18 = {
     "rush_att": 34,
     "rush_td": 1,
     "rush_yd": 261,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "deandrecarter": {
+  "Deandre Carter": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "deandrecarter",
     "first_name": "Deandre",
@@ -7328,13 +9665,21 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 7,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "danielbrown": {
+  "Daniel Brown": {
     "fantasy_positions": [
       "WR",
       "TE"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "danielbrown",
     "first_name": "Daniel",
@@ -7354,12 +9699,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "erictomlinson": {
+  "Eric Tomlinson": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "erictomlinson",
     "first_name": "Eric",
@@ -7379,12 +9732,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "bradleymarquez": {
+  "Bradley Marquez": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "bradleymarquez",
     "first_name": "Bradley",
@@ -7404,12 +9765,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jakekumerow": {
+  "Jake Kumerow": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 16,
     "full_name": "jakekumerow",
     "first_name": "Jake",
@@ -7429,12 +9798,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "adamhumphries": {
+  "Adam Humphries": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "adamhumphries",
     "first_name": "Adam",
@@ -7454,12 +9831,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 11,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "rodsmith": {
+  "Rod Smith": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 45,
     "full_name": "rodsmith",
     "first_name": "Rod",
@@ -7479,12 +9864,20 @@ const playersAndStats18 = {
     "rush_att": 44,
     "rush_td": 1,
     "rush_yd": 127,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mattlacosse": {
+  "Matt LaCosse": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "mattlacosse",
     "first_name": "Matt",
@@ -7504,12 +9897,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "elirogers": {
+  "Eli Rogers": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "elirogers",
     "first_name": "Eli",
@@ -7529,12 +9930,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -4,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mattlengel": {
+  "Matt Lengel": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 89,
     "full_name": "mattlengel",
     "first_name": "Matt",
@@ -7554,12 +9963,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "chrismanhertz": {
+  "Chris Manhertz": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "chrismanhertz",
     "first_name": "Chris",
@@ -7579,12 +9996,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "laquontreadwell": {
+  "Laquon Treadwell": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "laquontreadwell",
     "first_name": "Laquon",
@@ -7604,12 +10029,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "willfuller": {
+  "Will Fuller": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "willfuller",
     "first_name": "Will",
@@ -7629,12 +10062,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "carsonwentz": {
+  "Carson Wentz": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "carsonwentz",
     "first_name": "Carson",
@@ -7654,12 +10095,20 @@ const playersAndStats18 = {
     "rush_att": 34,
     "rush_td": 0,
     "rush_yd": 93,
-    "td": 0
+    "td": 0,
+    "pass_td": 21,
+    "pass_int": 7,
+    "pass_cmp": 279,
+    "pass_att": 401,
+    "pass_yd": 3074,
+    "pass_inc": 122,
+    "fum_lost": 6
   },
-  "jaredgoff": {
+  "Jared Goff": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 16,
     "full_name": "jaredgoff",
     "first_name": "Jared",
@@ -7679,12 +10128,20 @@ const playersAndStats18 = {
     "rush_att": 43,
     "rush_td": 2,
     "rush_yd": 108,
-    "td": 2
+    "td": 2,
+    "pass_td": 32,
+    "pass_int": 12,
+    "pass_cmp": 364,
+    "pass_att": 561,
+    "pass_yd": 4688,
+    "pass_inc": 197,
+    "fum_lost": 5
   },
-  "ezekielelliott": {
+  "Ezekiel Elliott": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 21,
     "full_name": "ezekielelliott",
     "first_name": "Ezekiel",
@@ -7704,12 +10161,20 @@ const playersAndStats18 = {
     "rush_att": 304,
     "rush_td": 6,
     "rush_yd": 1435,
-    "td": 9
+    "td": 9,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "coreycoleman": {
+  "Corey Coleman": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "coreycoleman",
     "first_name": "Corey",
@@ -7729,12 +10194,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 5,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "joshdoctson": {
+  "Josh Doctson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "joshdoctson",
     "first_name": "Josh",
@@ -7754,12 +10227,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "derrickhenry": {
+  "Derrick Henry": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 22,
     "full_name": "derrickhenry",
     "first_name": "Derrick",
@@ -7779,12 +10260,20 @@ const playersAndStats18 = {
     "rush_att": 215,
     "rush_td": 12,
     "rush_yd": 1059,
-    "td": 12
+    "td": 12,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 2,
+    "pass_att": 3,
+    "pass_yd": 14,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "michaelthomas": {
+  "Michael Thomas": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "michaelthomas",
     "first_name": "Michael",
@@ -7804,12 +10293,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 9
+    "td": 9,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "sterlingshepard": {
+  "Sterling Shepard": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "sterlingshepard",
     "first_name": "Sterling",
@@ -7829,12 +10326,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 33,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "austinhooper": {
+  "Austin Hooper": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "austinhooper",
     "first_name": "Austin",
@@ -7854,12 +10359,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "cjprosise": {
+  "CJ Prosise": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 22,
     "full_name": "cjprosise",
     "first_name": "CJ",
@@ -7879,12 +10392,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -3,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "codykessler": {
+  "Cody Kessler": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 6,
     "full_name": "codykessler",
     "first_name": "Cody",
@@ -7904,12 +10425,20 @@ const playersAndStats18 = {
     "rush_att": 19,
     "rush_td": 0,
     "rush_yd": 123,
-    "td": 0
+    "td": 0,
+    "pass_td": 2,
+    "pass_int": 2,
+    "pass_cmp": 85,
+    "pass_att": 131,
+    "pass_yd": 709,
+    "pass_inc": 46,
+    "fum_lost": 3
   },
-  "kennethdixon": {
+  "Kenneth Dixon": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 30,
     "full_name": "kennethdixon",
     "first_name": "Kenneth",
@@ -7929,12 +10458,20 @@ const playersAndStats18 = {
     "rush_att": 60,
     "rush_td": 2,
     "rush_yd": 333,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "devontaebooker": {
+  "Devontae Booker": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 23,
     "full_name": "devontaebooker",
     "first_name": "Devontae",
@@ -7954,12 +10491,20 @@ const playersAndStats18 = {
     "rush_att": 34,
     "rush_td": 1,
     "rush_yd": 183,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "tylerboyd": {
+  "Tyler Boyd": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "tylerboyd",
     "first_name": "Tyler",
@@ -7979,12 +10524,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 3,
-    "td": 7
+    "td": 7,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 1,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "kenyandrake": {
+  "Kenyan Drake": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 32,
     "full_name": "kenyandrake",
     "first_name": "Kenyan",
@@ -8004,12 +10557,20 @@ const playersAndStats18 = {
     "rush_att": 120,
     "rush_td": 4,
     "rush_yd": 535,
-    "td": 9
+    "td": 9,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "leontecarroo": {
+  "Leonte Carroo": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "leontecarroo",
     "first_name": "Leonte",
@@ -8029,12 +10590,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 14,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jacobybrissett": {
+  "Jacoby Brissett": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 7,
     "full_name": "jacobybrissett",
     "first_name": "Jacoby",
@@ -8054,12 +10623,20 @@ const playersAndStats18 = {
     "rush_att": 7,
     "rush_td": 0,
     "rush_yd": -7,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 2,
+    "pass_att": 4,
+    "pass_yd": 2,
+    "pass_inc": 1,
+    "fum_lost": 0
   },
-  "nickvannett": {
+  "Nick Vannett": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "nickvannett",
     "first_name": "Nick",
@@ -8079,12 +10656,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "chrismoore": {
+  "Chris Moore": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "chrismoore",
     "first_name": "Chris",
@@ -8104,12 +10689,20 @@ const playersAndStats18 = {
     "rush_att": 5,
     "rush_td": 0,
     "rush_yd": 17,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tylerhigbee": {
+  "Tyler Higbee": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 89,
     "full_name": "tylerhigbee",
     "first_name": "Tyler",
@@ -8129,12 +10722,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "pharohcooper": {
+  "Pharoh Cooper": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "pharohcooper",
     "first_name": "Pharoh",
@@ -8154,12 +10755,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tylerervin": {
+  "Tyler Ervin": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 24,
     "full_name": "tylerervin",
     "first_name": "Tyler",
@@ -8179,12 +10788,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "demarcusrobinson": {
+  "Demarcus Robinson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "demarcusrobinson",
     "first_name": "Demarcus",
@@ -8204,12 +10821,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dakprescott": {
+  "Dak Prescott": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 4,
     "full_name": "dakprescott",
     "first_name": "Dak",
@@ -8229,13 +10854,21 @@ const playersAndStats18 = {
     "rush_att": 75,
     "rush_td": 6,
     "rush_yd": 305,
-    "td": 6
+    "td": 6,
+    "pass_td": 22,
+    "pass_int": 8,
+    "pass_cmp": 356,
+    "pass_att": 526,
+    "pass_yd": 3884,
+    "pass_inc": 170,
+    "fum_lost": 6
   },
-  "sethdevalve": {
+  "Seth DeValve": {
     "fantasy_positions": [
       "WR",
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "sethdevalve",
     "first_name": "Seth",
@@ -8255,12 +10888,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tajaesharpe": {
+  "Tajae Sharpe": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "tajaesharpe",
     "first_name": "Tajae",
@@ -8280,12 +10921,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 16,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "deandrewashington": {
+  "Deandre Washington": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 33,
     "full_name": "deandrewashington",
     "first_name": "Deandre",
@@ -8305,12 +10954,20 @@ const playersAndStats18 = {
     "rush_att": 30,
     "rush_td": 0,
     "rush_yd": 115,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "jordanhoward": {
+  "Jordan Howard": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 24,
     "full_name": "jordanhoward",
     "first_name": "Jordan",
@@ -8330,12 +10987,20 @@ const playersAndStats18 = {
     "rush_att": 250,
     "rush_td": 9,
     "rush_yd": 935,
-    "td": 9
+    "td": 9,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "wendellsmallwood": {
+  "Wendell Smallwood": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 34,
     "full_name": "wendellsmallwood",
     "first_name": "Wendell",
@@ -8355,12 +11020,20 @@ const playersAndStats18 = {
     "rush_att": 87,
     "rush_td": 3,
     "rush_yd": 364,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "jonathanwilliams": {
+  "Jonathan Williams": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 33,
     "full_name": "jonathanwilliams",
     "first_name": "Jonathan",
@@ -8380,12 +11053,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "trevordavis": {
+  "Trevor Davis": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "trevordavis",
     "first_name": "Trevor",
@@ -8405,12 +11086,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tyreekhill": {
+  "Tyreek Hill": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "tyreekhill",
     "first_name": "Tyreek",
@@ -8430,12 +11119,20 @@ const playersAndStats18 = {
     "rush_att": 22,
     "rush_td": 1,
     "rush_yd": 151,
-    "td": 14
+    "td": 14,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "alexcollins": {
+  "Alex Collins": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 34,
     "full_name": "alexcollins",
     "first_name": "Alex",
@@ -8455,12 +11152,20 @@ const playersAndStats18 = {
     "rush_att": 114,
     "rush_td": 7,
     "rush_yd": 411,
-    "td": 8
+    "td": 8,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 3
   },
-  "rashardhiggins": {
+  "Rashard Higgins": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "rashardhiggins",
     "first_name": "Rashard",
@@ -8480,12 +11185,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "temarrickhemingway": {
+  "Temarrick Hemingway": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "temarrickhemingway",
     "first_name": "Temarrick",
@@ -8505,12 +11218,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "keenanreynolds": {
+  "Keenan Reynolds": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "keenanreynolds",
     "first_name": "Keenan",
@@ -8530,12 +11251,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jakeemgrant": {
+  "Jakeem Grant": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "jakeemgrant",
     "first_name": "Jakeem",
@@ -8555,12 +11284,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 5,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "natesudfeld": {
+  "Nate Sudfeld": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 7,
     "full_name": "natesudfeld",
     "first_name": "Nate",
@@ -8580,12 +11317,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": -2,
-    "td": 0
+    "td": 0,
+    "pass_td": 1,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 2,
+    "pass_yd": 22,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "davidmorgan": {
+  "David Morgan": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 89,
     "full_name": "davidmorgan",
     "first_name": "David",
@@ -8605,12 +11350,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "codycore": {
+  "Cody Core": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "codycore",
     "first_name": "Cody",
@@ -8630,12 +11383,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jeffdriskel": {
+  "Jeff Driskel": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 2,
     "full_name": "jeffdriskel",
     "first_name": "Jeff",
@@ -8655,12 +11416,20 @@ const playersAndStats18 = {
     "rush_att": 25,
     "rush_td": 2,
     "rush_yd": 130,
-    "td": 2
+    "td": 2,
+    "pass_td": 6,
+    "pass_int": 2,
+    "pass_cmp": 105,
+    "pass_att": 176,
+    "pass_yd": 1003,
+    "pass_inc": 71,
+    "fum_lost": 1
   },
-  "dariusjackson": {
+  "Darius Jackson": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 43,
     "full_name": "dariusjackson",
     "first_name": "Darius",
@@ -8680,12 +11449,20 @@ const playersAndStats18 = {
     "rush_att": 6,
     "rush_td": 0,
     "rush_yd": 16,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "ricogathers": {
+  "Rico Gathers": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "ricogathers",
     "first_name": "Rico",
@@ -8705,12 +11482,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dwaynewashington": {
+  "Dwayne Washington": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 27,
     "full_name": "dwaynewashington",
     "first_name": "Dwayne",
@@ -8730,12 +11515,20 @@ const playersAndStats18 = {
     "rush_att": 27,
     "rush_td": 0,
     "rush_yd": 154,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "charonepeake": {
+  "Charone Peake": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "charonepeake",
     "first_name": "Charone",
@@ -8755,12 +11548,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "robbyanderson": {
+  "Robby Anderson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "robbyanderson",
     "first_name": "Robby",
@@ -8780,12 +11581,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": -8,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "alexerickson": {
+  "Alex Erickson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "alexerickson",
     "first_name": "Alex",
@@ -8805,12 +11614,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 22,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "marcusjohnson": {
+  "Marcus Johnson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 16,
     "full_name": "marcusjohnson",
     "first_name": "Marcus",
@@ -8830,12 +11647,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -2,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "caylebjones": {
+  "Cayleb Jones": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 16,
     "full_name": "caylebjones",
     "first_name": "Cayleb",
@@ -8855,12 +11680,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "benbraunecker": {
+  "Ben Braunecker": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "benbraunecker",
     "first_name": "Ben",
@@ -8880,12 +11713,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "davidgrinnage": {
+  "David Grinnage": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 86,
     "full_name": "davidgrinnage",
     "first_name": "David",
@@ -8905,12 +11746,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "johnnyholton": {
+  "Johnny Holton": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "johnnyholton",
     "first_name": "Johnny",
@@ -8930,13 +11779,21 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "byronmarshall": {
+  "Byron Marshall": {
     "fantasy_positions": [
       "WR",
       "RB"
     ],
+    "year": 2018,
     "number": 40,
     "full_name": "byronmarshall",
     "first_name": "Byron",
@@ -8956,12 +11813,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 9,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "geronimoallison": {
+  "Geronimo Allison": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "geronimoallison",
     "first_name": "Geronimo",
@@ -8981,12 +11846,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tremadden": {
+  "Tre Madden": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 38,
     "full_name": "tremadden",
     "first_name": "Tre",
@@ -9006,12 +11879,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 3,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "brandonwilds": {
+  "Brandon Wilds": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 35,
     "full_name": "brandonwilds",
     "first_name": "Brandon",
@@ -9031,12 +11912,20 @@ const playersAndStats18 = {
     "rush_att": 6,
     "rush_td": 0,
     "rush_yd": 15,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "chesterrogers": {
+  "Chester Rogers": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "chesterrogers",
     "first_name": "Chester",
@@ -9056,12 +11945,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -4,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "peytonbarber": {
+  "Peyton Barber": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 25,
     "full_name": "peytonbarber",
     "first_name": "Peyton",
@@ -9081,12 +11978,20 @@ const playersAndStats18 = {
     "rush_att": 234,
     "rush_td": 5,
     "rush_yd": 871,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "hakeemvalles": {
+  "Hakeem Valles": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 49,
     "full_name": "hakeemvalles",
     "first_name": "Hakeem",
@@ -9106,12 +12011,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tommyleelewis": {
+  "Tommylee Lewis": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "tommyleelewis",
     "first_name": "Tommylee",
@@ -9131,12 +12044,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 10,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "mauriceharris": {
+  "Maurice Harris": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "mauriceharris",
     "first_name": "Maurice",
@@ -9156,12 +12077,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 10,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mikethomas": {
+  "Mike Thomas": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "mikethomas",
     "first_name": "Mike",
@@ -9181,12 +12110,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "robkelley": {
+  "Rob Kelley": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 37,
     "full_name": "robkelley",
     "first_name": "Rob",
@@ -9206,13 +12143,21 @@ const playersAndStats18 = {
     "rush_att": 4,
     "rush_td": 0,
     "rush_yd": 8,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jdmckissic": {
+  "JD McKissic": {
     "fantasy_positions": [
       "WR",
       "RB"
     ],
+    "year": 2018,
     "number": 41,
     "full_name": "jdmckissic",
     "first_name": "JD",
@@ -9232,12 +12177,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 8,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "joshuaperkins": {
+  "Joshua Perkins": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "joshuaperkins",
     "first_name": "Joshua",
@@ -9257,12 +12210,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tracarson": {
+  "Tra Carson": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 32,
     "full_name": "tracarson",
     "first_name": "Tra",
@@ -9282,12 +12243,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "andyjones": {
+  "Andy Jones": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 16,
     "full_name": "andyjones",
     "first_name": "Andy",
@@ -9307,12 +12276,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "colewick": {
+  "Cole Wick": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 89,
     "full_name": "colewick",
     "first_name": "Cole",
@@ -9332,12 +12309,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tannermcevoy": {
+  "Tanner McEvoy": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "tannermcevoy",
     "first_name": "Tanner",
@@ -9357,12 +12342,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "elijhaapenny": {
+  "Elijhaa Penny": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 39,
     "full_name": "elijhaapenny",
     "first_name": "Elijhaa",
@@ -9382,12 +12375,20 @@ const playersAndStats18 = {
     "rush_att": 7,
     "rush_td": 0,
     "rush_yd": 25,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "alexellis": {
+  "Alex Ellis": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "alexellis",
     "first_name": "Alex",
@@ -9407,12 +12408,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "cjham": {
+  "CJ Ham": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 30,
     "full_name": "cjham",
     "first_name": "CJ",
@@ -9432,12 +12441,20 @@ const playersAndStats18 = {
     "rush_att": 6,
     "rush_td": 0,
     "rush_yd": 8,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jaydonmickens": {
+  "Jaydon Mickens": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "jaydonmickens",
     "first_name": "Jaydon",
@@ -9457,12 +12474,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jalenrichard": {
+  "Jalen Richard": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 30,
     "full_name": "jalenrichard",
     "first_name": "Jalen",
@@ -9482,12 +12507,20 @@ const playersAndStats18 = {
     "rush_att": 55,
     "rush_td": 1,
     "rush_yd": 259,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "marvinhall": {
+  "Marvin Hall": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "marvinhall",
     "first_name": "Marvin",
@@ -9507,12 +12540,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "leonardfournette": {
+  "Leonard Fournette": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 27,
     "full_name": "leonardfournette",
     "first_name": "Leonard",
@@ -9532,12 +12573,20 @@ const playersAndStats18 = {
     "rush_att": 133,
     "rush_td": 5,
     "rush_yd": 439,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mitchtrubisky": {
+  "Mitch Trubisky": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "mitchtrubisky",
     "first_name": "Mitch",
@@ -9557,12 +12606,20 @@ const playersAndStats18 = {
     "rush_att": 68,
     "rush_td": 3,
     "rush_yd": 421,
-    "td": 3
+    "td": 3,
+    "pass_td": 24,
+    "pass_int": 12,
+    "pass_cmp": 289,
+    "pass_att": 434,
+    "pass_yd": 3223,
+    "pass_inc": 145,
+    "fum_lost": 3
   },
-  "deshaunwatson": {
+  "Deshaun Watson": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 4,
     "full_name": "deshaunwatson",
     "first_name": "Deshaun",
@@ -9582,12 +12639,20 @@ const playersAndStats18 = {
     "rush_att": 99,
     "rush_td": 5,
     "rush_yd": 551,
-    "td": 5
+    "td": 5,
+    "pass_td": 26,
+    "pass_int": 9,
+    "pass_cmp": 345,
+    "pass_att": 505,
+    "pass_yd": 4165,
+    "pass_inc": 160,
+    "fum_lost": 3
   },
-  "joemixon": {
+  "Joe Mixon": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 28,
     "full_name": "joemixon",
     "first_name": "Joe",
@@ -9607,12 +12672,20 @@ const playersAndStats18 = {
     "rush_att": 237,
     "rush_td": 8,
     "rush_yd": 1168,
-    "td": 9
+    "td": 9,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "deshonekizer": {
+  "Deshone Kizer": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "deshonekizer",
     "first_name": "Deshone",
@@ -9632,12 +12705,20 @@ const playersAndStats18 = {
     "rush_att": 5,
     "rush_td": 0,
     "rush_yd": 39,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 2,
+    "pass_cmp": 20,
+    "pass_att": 42,
+    "pass_yd": 187,
+    "pass_inc": 22,
+    "fum_lost": 1
   },
-  "dalvincook": {
+  "Dalvin Cook": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 33,
     "full_name": "dalvincook",
     "first_name": "Dalvin",
@@ -9657,12 +12738,20 @@ const playersAndStats18 = {
     "rush_att": 133,
     "rush_td": 2,
     "rush_yd": 615,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "davidnjoku": {
+  "David Njoku": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "davidnjoku",
     "first_name": "David",
@@ -9682,12 +12771,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "christianmccaffrey": {
+  "Christian McCaffrey": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 22,
     "full_name": "christianmccaffrey",
     "first_name": "Christian",
@@ -9707,12 +12804,20 @@ const playersAndStats18 = {
     "rush_att": 219,
     "rush_td": 7,
     "rush_yd": 1098,
-    "td": 13
+    "td": 13,
+    "pass_td": 1,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 1,
+    "pass_yd": 50,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "alvinkamara": {
+  "Alvin Kamara": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 41,
     "full_name": "alvinkamara",
     "first_name": "Alvin",
@@ -9732,12 +12837,20 @@ const playersAndStats18 = {
     "rush_att": 194,
     "rush_td": 14,
     "rush_yd": 883,
-    "td": 18
+    "td": 18,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "coreydavis": {
+  "Corey Davis": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "coreydavis",
     "first_name": "Corey",
@@ -9757,12 +12870,20 @@ const playersAndStats18 = {
     "rush_att": 6,
     "rush_td": 0,
     "rush_yd": 55,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "chrisgodwin": {
+  "Chris Godwin": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "chrisgodwin",
     "first_name": "Chris",
@@ -9782,12 +12903,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 7
+    "td": 7,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "johnross": {
+  "John Ross": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "johnross",
     "first_name": "John",
@@ -9807,12 +12936,20 @@ const playersAndStats18 = {
     "rush_att": 4,
     "rush_td": 0,
     "rush_yd": 9,
-    "td": 7
+    "td": 7,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "cooperkupp": {
+  "Cooper Kupp": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "cooperkupp",
     "first_name": "Cooper",
@@ -9832,12 +12969,20 @@ const playersAndStats18 = {
     "rush_att": 4,
     "rush_td": 0,
     "rush_yd": 25,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jujusmithschuster": {
+  "JuJu Smith-Schuster": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "jujusmithschuster",
     "first_name": "JuJu",
@@ -9857,12 +13002,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 13,
-    "td": 7
+    "td": 7,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "patrickmahomes": {
+  "Patrick Mahomes": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "patrickmahomes",
     "first_name": "Patrick",
@@ -9882,12 +13035,20 @@ const playersAndStats18 = {
     "rush_att": 60,
     "rush_td": 2,
     "rush_yd": 272,
-    "td": 2
+    "td": 2,
+    "pass_td": 50,
+    "pass_int": 12,
+    "pass_cmp": 383,
+    "pass_att": 580,
+    "pass_yd": 5097,
+    "pass_inc": 197,
+    "fum_lost": 2
   },
-  "chadkelly": {
+  "Chad Kelly": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 6,
     "full_name": "chadkelly",
     "first_name": "Chad",
@@ -9907,12 +13068,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -1,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "moaliecox": {
+  "Mo Alie-Cox": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "moaliecox",
     "first_name": "Mo",
@@ -9932,12 +13101,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "ojhoward": {
+  "OJ Howard": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "ojhoward",
     "first_name": "OJ",
@@ -9957,12 +13134,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "evanengram": {
+  "Evan Engram": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "evanengram",
     "first_name": "Evan",
@@ -9982,12 +13167,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 36,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mikewilliams": {
+  "Mike Williams": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "mikewilliams",
     "first_name": "Mike",
@@ -10007,12 +13200,20 @@ const playersAndStats18 = {
     "rush_att": 7,
     "rush_td": 1,
     "rush_yd": 28,
-    "td": 11
+    "td": 11,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "zayjones": {
+  "Zay Jones": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "zayjones",
     "first_name": "Zay",
@@ -10032,12 +13233,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 7
+    "td": 7,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 1,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "curtissamuel": {
+  "Curtis Samuel": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "curtissamuel",
     "first_name": "Curtis",
@@ -10057,12 +13266,20 @@ const playersAndStats18 = {
     "rush_att": 8,
     "rush_td": 2,
     "rush_yd": 84,
-    "td": 7
+    "td": 7,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "adamshaheen": {
+  "Adam Shaheen": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "adamshaheen",
     "first_name": "Adam",
@@ -10082,12 +13299,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "geraldeverett": {
+  "Gerald Everett": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "geraldeverett",
     "first_name": "Gerald",
@@ -10107,12 +13332,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 16,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "kareemhunt": {
+  "Kareem Hunt": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 27,
     "full_name": "kareemhunt",
     "first_name": "Kareem",
@@ -10132,12 +13365,20 @@ const playersAndStats18 = {
     "rush_att": 181,
     "rush_td": 7,
     "rush_yd": 824,
-    "td": 14
+    "td": 14,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dontaforeman": {
+  "D'Onta Foreman": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 40,
     "full_name": "dontaforeman",
     "first_name": "D'Onta",
@@ -10157,12 +13398,20 @@ const playersAndStats18 = {
     "rush_att": 7,
     "rush_td": 0,
     "rush_yd": -1,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "taywantaylor": {
+  "Taywan Taylor": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "taywantaylor",
     "first_name": "Taywan",
@@ -10182,12 +13431,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "cjbeathard": {
+  "CJ Beathard": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 3,
     "full_name": "cjbeathard",
     "first_name": "CJ",
@@ -10207,12 +13464,20 @@ const playersAndStats18 = {
     "rush_att": 19,
     "rush_td": 1,
     "rush_yd": 69,
-    "td": 1
+    "td": 1,
+    "pass_td": 8,
+    "pass_int": 7,
+    "pass_cmp": 102,
+    "pass_att": 169,
+    "pass_yd": 1252,
+    "pass_inc": 67,
+    "fum_lost": 3
   },
-  "chadwilliams": {
+  "Chad Williams": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 1,
     "full_name": "chadwilliams",
     "first_name": "Chad",
@@ -10232,12 +13497,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 9,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "kennygolladay": {
+  "Kenny Golladay": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "kennygolladay",
     "first_name": "Kenny",
@@ -10257,12 +13530,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 8,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jamesconner": {
+  "James Conner": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 30,
     "full_name": "jamesconner",
     "first_name": "James",
@@ -10282,12 +13563,20 @@ const playersAndStats18 = {
     "rush_att": 215,
     "rush_td": 12,
     "rush_yd": 973,
-    "td": 13
+    "td": 13,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "jonnusmith": {
+  "Jonnu Smith": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "jonnusmith",
     "first_name": "Jonnu",
@@ -10307,12 +13596,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dedewestbrook": {
+  "Dede Westbrook": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "dedewestbrook",
     "first_name": "Dede",
@@ -10332,12 +13629,20 @@ const playersAndStats18 = {
     "rush_att": 9,
     "rush_td": 0,
     "rush_yd": 98,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 1,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "samajeperine": {
+  "Samaje Perine": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 34,
     "full_name": "samajeperine",
     "first_name": "Samaje",
@@ -10357,12 +13662,20 @@ const playersAndStats18 = {
     "rush_att": 8,
     "rush_td": 0,
     "rush_yd": 32,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jamaalwilliams": {
+  "Jamaal Williams": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 30,
     "full_name": "jamaalwilliams",
     "first_name": "Jamaal",
@@ -10382,12 +13695,20 @@ const playersAndStats18 = {
     "rush_att": 121,
     "rush_td": 3,
     "rush_yd": 464,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "waynegallman": {
+  "Wayne Gallman": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 22,
     "full_name": "waynegallman",
     "first_name": "Wayne",
@@ -10407,12 +13728,20 @@ const playersAndStats18 = {
     "rush_att": 51,
     "rush_td": 1,
     "rush_yd": 176,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "jakebutt": {
+  "Jake Butt": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "jakebutt",
     "first_name": "Jake",
@@ -10432,12 +13761,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "marlonmack": {
+  "Marlon Mack": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 25,
     "full_name": "marlonmack",
     "first_name": "Marlon",
@@ -10457,12 +13794,20 @@ const playersAndStats18 = {
     "rush_att": 195,
     "rush_td": 9,
     "rush_yd": 908,
-    "td": 10
+    "td": 10,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "jordanleggett": {
+  "Jordan Leggett": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "jordanleggett",
     "first_name": "Jordan",
@@ -10482,12 +13827,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tarikcohen": {
+  "Tarik Cohen": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 29,
     "full_name": "tarikcohen",
     "first_name": "Tarik",
@@ -10507,12 +13860,20 @@ const playersAndStats18 = {
     "rush_att": 99,
     "rush_td": 3,
     "rush_yd": 444,
-    "td": 8
+    "td": 8,
+    "pass_td": 1,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 1,
+    "pass_yd": 1,
+    "pass_inc": 0,
+    "fum_lost": 3
   },
-  "joshmalone": {
+  "Josh Malone": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "joshmalone",
     "first_name": "Josh",
@@ -10532,12 +13893,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "ryanswitzer": {
+  "Ryan Switzer": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "ryanswitzer",
     "first_name": "Ryan",
@@ -10557,12 +13926,20 @@ const playersAndStats18 = {
     "rush_att": 6,
     "rush_td": 0,
     "rush_yd": 21,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "michaelroberts": {
+  "Michael Roberts": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "michaelroberts",
     "first_name": "Michael",
@@ -10582,12 +13959,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jehuchesson": {
+  "Jehu Chesson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 16,
     "full_name": "jehuchesson",
     "first_name": "Jehu",
@@ -10607,12 +13992,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -4,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "joshreynolds": {
+  "Josh Reynolds": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "joshreynolds",
     "first_name": "Josh",
@@ -10632,12 +14025,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 8,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "joshuadobbs": {
+  "Joshua Dobbs": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 1,
     "full_name": "joshuadobbs",
     "first_name": "Joshua",
@@ -10657,12 +14058,20 @@ const playersAndStats18 = {
     "rush_att": 4,
     "rush_td": 0,
     "rush_yd": 11,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 1,
+    "pass_cmp": 6,
+    "pass_att": 12,
+    "pass_yd": 43,
+    "pass_inc": 6,
+    "fum_lost": 0
   },
-  "nathanpeterman": {
+  "Nathan Peterman": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 3,
     "full_name": "nathanpeterman",
     "first_name": "Nathan",
@@ -10682,12 +14091,20 @@ const playersAndStats18 = {
     "rush_att": 10,
     "rush_td": 1,
     "rush_yd": 50,
-    "td": 1
+    "td": 1,
+    "pass_td": 1,
+    "pass_int": 7,
+    "pass_cmp": 44,
+    "pass_att": 81,
+    "pass_yd": 296,
+    "pass_inc": 37,
+    "fum_lost": 0
   },
-  "tjlogan": {
+  "TJ Logan": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 22,
     "full_name": "tjlogan",
     "first_name": "TJ",
@@ -10707,12 +14124,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 2,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "brianhill": {
+  "Brian Hill": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 23,
     "full_name": "brianhill",
     "first_name": "Brian",
@@ -10732,12 +14157,20 @@ const playersAndStats18 = {
     "rush_att": 20,
     "rush_td": 0,
     "rush_yd": 157,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "ericsaubert": {
+  "Eric Saubert": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 86,
     "full_name": "ericsaubert",
     "first_name": "Eric",
@@ -10757,12 +14190,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "isaiahmckenzie": {
+  "Isaiah McKenzie": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "isaiahmckenzie",
     "first_name": "Isaiah",
@@ -10782,12 +14223,20 @@ const playersAndStats18 = {
     "rush_att": 10,
     "rush_td": 2,
     "rush_yd": 66,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "aaronjones": {
+  "Aaron Jones": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 33,
     "full_name": "aaronjones",
     "first_name": "Aaron",
@@ -10807,12 +14256,20 @@ const playersAndStats18 = {
     "rush_att": 133,
     "rush_td": 8,
     "rush_yd": 728,
-    "td": 9
+    "td": 9,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "sheltongibson": {
+  "Shelton Gibson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "sheltongibson",
     "first_name": "Shelton",
@@ -10832,12 +14289,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "georgekittle": {
+  "George Kittle": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "georgekittle",
     "first_name": "George",
@@ -10857,12 +14322,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 10,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "trenttaylor": {
+  "Trent Taylor": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "trenttaylor",
     "first_name": "Trent",
@@ -10882,12 +14355,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jeremymcnichols": {
+  "Jeremy McNichols": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 30,
     "full_name": "jeremymcnichols",
     "first_name": "Jeremy",
@@ -10907,12 +14388,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 4,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jeremysprinkle": {
+  "Jeremy Sprinkle": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "jeremysprinkle",
     "first_name": "Jeremy",
@@ -10932,12 +14421,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "alexarmah": {
+  "Alex Armah": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 40,
     "full_name": "alexarmah",
     "first_name": "Alex",
@@ -10957,12 +14454,20 @@ const playersAndStats18 = {
     "rush_att": 9,
     "rush_td": 2,
     "rush_yd": 15,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "masonschreck": {
+  "Mason Schreck": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 86,
     "full_name": "masonschreck",
     "first_name": "Mason",
@@ -10982,12 +14487,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mattdayes": {
+  "Matt Dayes": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 30,
     "full_name": "mattdayes",
     "first_name": "Matt",
@@ -11007,12 +14520,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "noahbrown": {
+  "Noah Brown": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "noahbrown",
     "first_name": "Noah",
@@ -11032,12 +14553,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "deangelohenderson": {
+  "De'Angelo Henderson": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 32,
     "full_name": "deangelohenderson",
     "first_name": "De'Angelo",
@@ -11057,12 +14586,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 19,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "isaiahford": {
+  "Isaiah Ford": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "isaiahford",
     "first_name": "Isaiah",
@@ -11082,12 +14619,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "stacycoley": {
+  "Stacy Coley": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "stacycoley",
     "first_name": "Stacy",
@@ -11107,12 +14652,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "elijahmcguire": {
+  "Elijah McGuire": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 36,
     "full_name": "elijahmcguire",
     "first_name": "Elijah",
@@ -11132,12 +14685,20 @@ const playersAndStats18 = {
     "rush_att": 92,
     "rush_td": 3,
     "rush_yd": 276,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "chriscarson": {
+  "Chris Carson": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 32,
     "full_name": "chriscarson",
     "first_name": "Chris",
@@ -11157,12 +14718,20 @@ const playersAndStats18 = {
     "rush_att": 247,
     "rush_td": 9,
     "rush_yd": 1151,
-    "td": 9
+    "td": 9,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "davidmoore": {
+  "David Moore": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "davidmoore",
     "first_name": "David",
@@ -11182,12 +14751,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 5,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "deanteburton": {
+  "Deante Burton": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 43,
     "full_name": "deanteburton",
     "first_name": "Deante",
@@ -11207,12 +14784,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "johnnymundt": {
+  "Johnny Mundt": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "johnnymundt",
     "first_name": "Johnny",
@@ -11232,12 +14817,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "zachpascal": {
+  "Zach Pascal": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "zachpascal",
     "first_name": "Zach",
@@ -11257,12 +14850,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 10,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "darrelldaniels": {
+  "Darrell Daniels": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "darrelldaniels",
     "first_name": "Darrell",
@@ -11282,12 +14883,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jojonatson": {
+  "Jojo Natson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "jojonatson",
     "first_name": "Jojo",
@@ -11307,12 +14916,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "taquanmizzell": {
+  "Taquan Mizzell": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 44,
     "full_name": "taquanmizzell",
     "first_name": "Taquan",
@@ -11332,12 +14949,20 @@ const playersAndStats18 = {
     "rush_att": 9,
     "rush_td": 0,
     "rush_yd": 16,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "rickyortiz": {
+  "Ricky Ortiz": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 30,
     "full_name": "rickyortiz",
     "first_name": "Ricky",
@@ -11357,12 +14982,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "timpatrick": {
+  "Tim Patrick": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "timpatrick",
     "first_name": "Tim",
@@ -11382,12 +15015,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 17,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "timwhite": {
+  "Tim White": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 6,
     "full_name": "timwhite",
     "first_name": "Tim",
@@ -11407,12 +15048,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "taysomhill": {
+  "Taysom Hill": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 7,
     "full_name": "taysomhill",
     "first_name": "Taysom",
@@ -11432,12 +15081,20 @@ const playersAndStats18 = {
     "rush_att": 37,
     "rush_td": 2,
     "rush_yd": 196,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 1,
+    "pass_cmp": 3,
+    "pass_att": 7,
+    "pass_yd": 64,
+    "pass_inc": 2,
+    "fum_lost": 1
   },
-  "austincarr": {
+  "Austin Carr": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "austincarr",
     "first_name": "Austin",
@@ -11457,12 +15114,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jacobhollister": {
+  "Jacob Hollister": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 48,
     "full_name": "jacobhollister",
     "first_name": "Jacob",
@@ -11482,12 +15147,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "anthonyfirkser": {
+  "Anthony Firkser": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 86,
     "full_name": "anthonyfirkser",
     "first_name": "Anthony",
@@ -11507,12 +15180,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "keonhatcher": {
+  "Keon Hatcher": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "keonhatcher",
     "first_name": "Keon",
@@ -11532,12 +15213,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "victorboldenjr": {
+  "Victor Bolden Jr.": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "victorboldenjr",
     "first_name": "Victor",
@@ -11557,12 +15246,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "kendrickbourne": {
+  "Kendrick Bourne": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "kendrickbourne",
     "first_name": "Kendrick",
@@ -11582,12 +15279,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mattbreida": {
+  "Matt Breida": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 22,
     "full_name": "mattbreida",
     "first_name": "Matt",
@@ -11607,12 +15312,20 @@ const playersAndStats18 = {
     "rush_att": 153,
     "rush_td": 3,
     "rush_yd": 814,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "nickmullens": {
+  "Nick Mullens": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 4,
     "full_name": "nickmullens",
     "first_name": "Nick",
@@ -11632,12 +15345,20 @@ const playersAndStats18 = {
     "rush_att": 18,
     "rush_td": 0,
     "rush_yd": -16,
-    "td": 0
+    "td": 0,
+    "pass_td": 13,
+    "pass_int": 10,
+    "pass_cmp": 176,
+    "pass_att": 274,
+    "pass_yd": 2277,
+    "pass_inc": 98,
+    "fum_lost": 0
   },
-  "antonyauclair": {
+  "Antony Auclair": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "antonyauclair",
     "first_name": "Antony",
@@ -11657,12 +15378,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jesuswilson": {
+  "Jesus Wilson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "jesuswilson",
     "first_name": "Jesus",
@@ -11682,12 +15411,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "gehrigdieter": {
+  "Gehrig Dieter": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "gehrigdieter",
     "first_name": "Gehrig",
@@ -11707,12 +15444,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "marcuskemp": {
+  "Marcus Kemp": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "marcuskemp",
     "first_name": "Marcus",
@@ -11732,12 +15477,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "rickysealsjones": {
+  "Ricky Seals-Jones": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "rickysealsjones",
     "first_name": "Ricky",
@@ -11757,12 +15510,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jasoncroom": {
+  "Jason Croom": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "jasoncroom",
     "first_name": "Jason",
@@ -11782,12 +15543,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 1,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "blakejarwin": {
+  "Blake Jarwin": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 89,
     "full_name": "blakejarwin",
     "first_name": "Blake",
@@ -11807,12 +15576,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "cooperrush": {
+  "Cooper Rush": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 7,
     "full_name": "cooperrush",
     "first_name": "Cooper",
@@ -11832,13 +15609,21 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "roberttonyanjr": {
+  "Robert Tonyan Jr.": {
     "fantasy_positions": [
       "WR",
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "roberttonyanjr",
     "first_name": "Robert",
@@ -11858,12 +15643,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "justinhardee": {
+  "Justin Hardee": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 34,
     "full_name": "justinhardee",
     "first_name": "Justin",
@@ -11883,12 +15676,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "rileymccarron": {
+  "Riley McCarron": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "rileymccarron",
     "first_name": "Riley",
@@ -11908,12 +15709,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "keelancole": {
+  "Keelan Cole": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "keelancole",
     "first_name": "Keelan",
@@ -11933,12 +15742,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "justindavis": {
+  "Justin Davis": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 39,
     "full_name": "justindavis",
     "first_name": "Justin",
@@ -11958,12 +15775,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 19,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "coreyclement": {
+  "Corey Clement": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 30,
     "full_name": "coreyclement",
     "first_name": "Corey",
@@ -11983,12 +15808,20 @@ const playersAndStats18 = {
     "rush_att": 68,
     "rush_td": 2,
     "rush_yd": 259,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "seanculkin": {
+  "Sean Culkin": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "seanculkin",
     "first_name": "Sean",
@@ -12008,12 +15841,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "austinekeler": {
+  "Austin Ekeler": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 30,
     "full_name": "austinekeler",
     "first_name": "Austin",
@@ -12033,12 +15874,20 @@ const playersAndStats18 = {
     "rush_att": 106,
     "rush_td": 3,
     "rush_yd": 554,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "tyroneswoopes": {
+  "Tyrone Swoopes": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 46,
     "full_name": "tyroneswoopes",
     "first_name": "Tyrone",
@@ -12058,13 +15907,21 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "treyedmunds": {
+  "Trey Edmunds": {
     "fantasy_positions": [
       "TE",
       "RB"
     ],
+    "year": 2018,
     "number": 33,
     "full_name": "treyedmunds",
     "first_name": "Trey",
@@ -12084,12 +15941,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dareogunbowale": {
+  "Dare Ogunbowale": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 44,
     "full_name": "dareogunbowale",
     "first_name": "Dare",
@@ -12109,13 +15974,21 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "danarnold": {
+  "Dan Arnold": {
     "fantasy_positions": [
       "WR",
       "TE"
     ],
+    "year": 2018,
     "number": 85,
     "full_name": "danarnold",
     "first_name": "Dan",
@@ -12135,12 +16008,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "lancelenoir": {
+  "Lance Lenoir": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "lancelenoir",
     "first_name": "Lance",
@@ -12160,12 +16041,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "rivercracraft": {
+  "River Cracraft": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "rivercracraft",
     "first_name": "River",
@@ -12185,12 +16074,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "joshrosen": {
+  "Josh Rosen": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 3,
     "full_name": "joshrosen",
     "first_name": "Josh",
@@ -12210,12 +16107,20 @@ const playersAndStats18 = {
     "rush_att": 23,
     "rush_td": 0,
     "rush_yd": 138,
-    "td": 0
+    "td": 0,
+    "pass_td": 11,
+    "pass_int": 14,
+    "pass_cmp": 217,
+    "pass_att": 393,
+    "pass_yd": 2278,
+    "pass_inc": 176,
+    "fum_lost": 5
   },
-  "saquonbarkley": {
+  "Saquon Barkley": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 26,
     "full_name": "saquonbarkley",
     "first_name": "Saquon",
@@ -12235,12 +16140,20 @@ const playersAndStats18 = {
     "rush_att": 261,
     "rush_td": 11,
     "rush_yd": 1307,
-    "td": 15
+    "td": 15,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "brandonzylstra": {
+  "Brandon Zylstra": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "brandonzylstra",
     "first_name": "Brandon",
@@ -12260,12 +16173,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "lamarjackson": {
+  "Lamar Jackson": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 8,
     "full_name": "lamarjackson",
     "first_name": "Lamar",
@@ -12285,12 +16206,20 @@ const playersAndStats18 = {
     "rush_att": 147,
     "rush_td": 5,
     "rush_yd": 695,
-    "td": 5
+    "td": 5,
+    "pass_td": 6,
+    "pass_int": 3,
+    "pass_cmp": 99,
+    "pass_att": 170,
+    "pass_yd": 1201,
+    "pass_inc": 70,
+    "fum_lost": 4
   },
-  "bakermayfield": {
+  "Baker Mayfield": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 6,
     "full_name": "bakermayfield",
     "first_name": "Baker",
@@ -12310,12 +16239,20 @@ const playersAndStats18 = {
     "rush_att": 39,
     "rush_td": 0,
     "rush_yd": 131,
-    "td": 0
+    "td": 0,
+    "pass_td": 27,
+    "pass_int": 14,
+    "pass_cmp": 310,
+    "pass_att": 486,
+    "pass_yd": 3725,
+    "pass_inc": 176,
+    "fum_lost": 3
   },
-  "marcellateman": {
+  "Marcell Ateman": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "marcellateman",
     "first_name": "Marcell",
@@ -12335,12 +16272,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "samdarnold": {
+  "Sam Darnold": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "samdarnold",
     "first_name": "Sam",
@@ -12360,12 +16305,20 @@ const playersAndStats18 = {
     "rush_att": 44,
     "rush_td": 1,
     "rush_yd": 138,
-    "td": 1
+    "td": 1,
+    "pass_td": 17,
+    "pass_int": 15,
+    "pass_cmp": 239,
+    "pass_att": 414,
+    "pass_yd": 2865,
+    "pass_inc": 175,
+    "fum_lost": 2
   },
-  "christiankirk": {
+  "Christian Kirk": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "christiankirk",
     "first_name": "Christian",
@@ -12385,12 +16338,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 35,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "djchark": {
+  "D.J. Chark": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "djchark",
     "first_name": "D.J.",
@@ -12410,12 +16371,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "sonymichel": {
+  "Sony Michel": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 26,
     "full_name": "sonymichel",
     "first_name": "Sony",
@@ -12435,12 +16404,20 @@ const playersAndStats18 = {
     "rush_att": 209,
     "rush_td": 6,
     "rush_yd": 931,
-    "td": 6
+    "td": 6,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "haydenhurst": {
+  "Hayden Hurst": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "haydenhurst",
     "first_name": "Hayden",
@@ -12460,12 +16437,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "calvinridley": {
+  "Calvin Ridley": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "calvinridley",
     "first_name": "Calvin",
@@ -12485,12 +16470,20 @@ const playersAndStats18 = {
     "rush_att": 6,
     "rush_td": 0,
     "rush_yd": 27,
-    "td": 10
+    "td": 10,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "djmoore": {
+  "D.J. Moore": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "djmoore",
     "first_name": "D.J.",
@@ -12510,12 +16503,20 @@ const playersAndStats18 = {
     "rush_att": 13,
     "rush_td": 0,
     "rush_yd": 172,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 3
   },
-  "joshallen": {
+  "Josh Allen": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "joshallen",
     "first_name": "Josh",
@@ -12535,12 +16536,20 @@ const playersAndStats18 = {
     "rush_att": 89,
     "rush_td": 8,
     "rush_yd": 631,
-    "td": 8
+    "td": 8,
+    "pass_td": 10,
+    "pass_int": 12,
+    "pass_cmp": 169,
+    "pass_att": 320,
+    "pass_yd": 2074,
+    "pass_inc": 151,
+    "fum_lost": 2
   },
-  "rashaadpenny": {
+  "Rashaad Penny": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 20,
     "full_name": "rashaadpenny",
     "first_name": "Rashaad",
@@ -12560,12 +16569,20 @@ const playersAndStats18 = {
     "rush_att": 85,
     "rush_td": 2,
     "rush_yd": 419,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "nickchubb": {
+  "Nick Chubb": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 24,
     "full_name": "nickchubb",
     "first_name": "Nick",
@@ -12585,12 +16602,20 @@ const playersAndStats18 = {
     "rush_att": 192,
     "rush_td": 8,
     "rush_yd": 996,
-    "td": 10
+    "td": 10,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dantepettis": {
+  "Dante Pettis": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "dantepettis",
     "first_name": "Dante",
@@ -12610,12 +16635,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -2,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mikegesicki": {
+  "Mike Gesicki": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "mikegesicki",
     "first_name": "Mike",
@@ -12635,12 +16668,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "kalenballage": {
+  "Kalen Ballage": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 27,
     "full_name": "kalenballage",
     "first_name": "Kalen",
@@ -12660,12 +16701,20 @@ const playersAndStats18 = {
     "rush_att": 36,
     "rush_td": 1,
     "rush_yd": 191,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "ianthomas": {
+  "Ian Thomas": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "ianthomas",
     "first_name": "Ian",
@@ -12685,12 +16734,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "kylelauletta": {
+  "Kyle Lauletta": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 8,
     "full_name": "kylelauletta",
     "first_name": "Kyle",
@@ -12710,12 +16767,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -2,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 1,
+    "pass_cmp": 0,
+    "pass_att": 5,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "markwalton": {
+  "Mark Walton": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 22,
     "full_name": "markwalton",
     "first_name": "Mark",
@@ -12735,12 +16800,20 @@ const playersAndStats18 = {
     "rush_att": 14,
     "rush_td": 0,
     "rush_yd": 34,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "daeseanhamilton": {
+  "Daesean Hamilton": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "daeseanhamilton",
     "first_name": "Daesean",
@@ -12760,12 +16833,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "chaseedmonds": {
+  "Chase Edmonds": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 29,
     "full_name": "chaseedmonds",
     "first_name": "Chase",
@@ -12785,12 +16866,20 @@ const playersAndStats18 = {
     "rush_att": 60,
     "rush_td": 2,
     "rush_yd": 208,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "daltonschultz": {
+  "Dalton Schultz": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 86,
     "full_name": "daltonschultz",
     "first_name": "Dalton",
@@ -12810,12 +16899,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "itosmith": {
+  "Ito Smith": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 25,
     "full_name": "itosmith",
     "first_name": "Ito",
@@ -12835,12 +16932,20 @@ const playersAndStats18 = {
     "rush_att": 90,
     "rush_td": 4,
     "rush_yd": 315,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jmonmoore": {
+  "J'mon Moore": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "jmonmoore",
     "first_name": "J'mon",
@@ -12860,12 +16965,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "kekecoutee": {
+  "Keke Coutee": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 16,
     "full_name": "kekecoutee",
     "first_name": "Keke",
@@ -12885,12 +16998,20 @@ const playersAndStats18 = {
     "rush_att": 3,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "durhamsmythe": {
+  "Durham Smythe": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "durhamsmythe",
     "first_name": "Durham",
@@ -12910,12 +17031,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "chrisherndoniv": {
+  "Chris Herndon IV": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 89,
     "full_name": "chrisherndoniv",
     "first_name": "Chris",
@@ -12935,12 +17064,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "willdissly": {
+  "Will Dissly": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "willdissly",
     "first_name": "Will",
@@ -12960,12 +17097,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "markandrews": {
+  "Mark Andrews": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 89,
     "full_name": "markandrews",
     "first_name": "Mark",
@@ -12985,12 +17130,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "anthonymiller": {
+  "Anthony Miller": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "anthonymiller",
     "first_name": "Anthony",
@@ -13010,12 +17163,20 @@ const playersAndStats18 = {
     "rush_att": 6,
     "rush_td": 0,
     "rush_yd": 26,
-    "td": 7
+    "td": 7,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 1,
+    "pass_att": 1,
+    "pass_yd": 8,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dallasgoedert": {
+  "Dallas Goedert": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "dallasgoedert",
     "first_name": "Dallas",
@@ -13035,12 +17196,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jameswashington": {
+  "James Washington": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "jameswashington",
     "first_name": "James",
@@ -13060,12 +17229,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "trequansmith": {
+  "Tre'Quan Smith": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 10,
     "full_name": "trequansmith",
     "first_name": "Tre'Quan",
@@ -13085,12 +17262,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jordanakins": {
+  "Jordan Akins": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "jordanakins",
     "first_name": "Jordan",
@@ -13110,12 +17295,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "michaelgallup": {
+  "Michael Gallup": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "michaelgallup",
     "first_name": "Michael",
@@ -13135,12 +17328,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "courtlandsutton": {
+  "Courtland Sutton": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "courtlandsutton",
     "first_name": "Courtland",
@@ -13160,12 +17361,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": -1,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "roycefreeman": {
+  "Royce Freeman": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 28,
     "full_name": "roycefreeman",
     "first_name": "Royce",
@@ -13185,12 +17394,20 @@ const playersAndStats18 = {
     "rush_att": 130,
     "rush_td": 5,
     "rush_yd": 521,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "ronaldjonesii": {
+  "Ronald Jones II": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 27,
     "full_name": "ronaldjonesii",
     "first_name": "Ronald",
@@ -13210,12 +17427,20 @@ const playersAndStats18 = {
     "rush_att": 23,
     "rush_td": 1,
     "rush_yd": 44,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "kerryonjohnson": {
+  "Kerryon Johnson": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 33,
     "full_name": "kerryonjohnson",
     "first_name": "Kerryon",
@@ -13235,12 +17460,20 @@ const playersAndStats18 = {
     "rush_att": 118,
     "rush_td": 3,
     "rush_yd": 641,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "johnkelly": {
+  "John Kelly": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 42,
     "full_name": "johnkelly",
     "first_name": "John",
@@ -13260,12 +17493,20 @@ const playersAndStats18 = {
     "rush_att": 27,
     "rush_td": 0,
     "rush_yd": 74,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "damionratley": {
+  "Damion Ratley": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "damionratley",
     "first_name": "Damion",
@@ -13285,12 +17526,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "marquezvaldesscantling": {
+  "Marquez Valdes-Scantling": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "marquezvaldesscantling",
     "first_name": "Marquez",
@@ -13310,12 +17559,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 29,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tylerconklin": {
+  "Tyler Conklin": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "tylerconklin",
     "first_name": "Tyler",
@@ -13335,12 +17592,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "rayraymccloud": {
+  "Ray-Ray McCloud": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 14,
     "full_name": "rayraymccloud",
     "first_name": "Ray-Ray",
@@ -13360,12 +17625,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 4,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "jordanwilkins": {
+  "Jordan Wilkins": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 20,
     "full_name": "jordanwilkins",
     "first_name": "Jordan",
@@ -13385,12 +17658,20 @@ const playersAndStats18 = {
     "rush_att": 60,
     "rush_td": 1,
     "rush_yd": 336,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "jaylensamuels": {
+  "Jaylen Samuels": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 38,
     "full_name": "jaylensamuels",
     "first_name": "Jaylen",
@@ -13410,12 +17691,20 @@ const playersAndStats18 = {
     "rush_att": 56,
     "rush_td": 0,
     "rush_yd": 256,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "russellgage": {
+  "Russell Gage": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "russellgage",
     "first_name": "Russell",
@@ -13435,12 +17724,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "javonwims": {
+  "Javon Wims": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "javonwims",
     "first_name": "Javon",
@@ -13460,12 +17757,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "davidwilliams": {
+  "David Williams": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 40,
     "full_name": "davidwilliams",
     "first_name": "David",
@@ -13485,12 +17790,20 @@ const playersAndStats18 = {
     "rush_att": 8,
     "rush_td": 0,
     "rush_yd": 36,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jordanthomas": {
+  "Jordan Thomas": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 83,
     "full_name": "jordanthomas",
     "first_name": "Jordan",
@@ -13510,12 +17823,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "bostonscott": {
+  "Boston Scott": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 38,
     "full_name": "bostonscott",
     "first_name": "Boston",
@@ -13535,12 +17856,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "trentoncannon": {
+  "Trenton Cannon": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 25,
     "full_name": "trentoncannon",
     "first_name": "Trenton",
@@ -13560,12 +17889,20 @@ const playersAndStats18 = {
     "rush_att": 38,
     "rush_td": 1,
     "rush_yd": 113,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "kyleallen": {
+  "Kyle Allen": {
     "fantasy_positions": [
       "QB"
     ],
+    "year": 2018,
     "number": 7,
     "full_name": "kyleallen",
     "first_name": "Kyle",
@@ -13585,12 +17922,20 @@ const playersAndStats18 = {
     "rush_att": 5,
     "rush_td": 1,
     "rush_yd": 19,
-    "td": 1
+    "td": 1,
+    "pass_td": 2,
+    "pass_int": 0,
+    "pass_cmp": 20,
+    "pass_att": 31,
+    "pass_yd": 266,
+    "pass_inc": 11,
+    "fum_lost": 0
   },
-  "audentate": {
+  "Auden Tate": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "audentate",
     "first_name": "Auden",
@@ -13610,12 +17955,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "justinjackson": {
+  "Justin Jackson": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 22,
     "full_name": "justinjackson",
     "first_name": "Justin",
@@ -13635,12 +17988,20 @@ const playersAndStats18 = {
     "rush_att": 50,
     "rush_td": 2,
     "rush_yd": 206,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "keithkirkwood": {
+  "Keith Kirkwood": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "keithkirkwood",
     "first_name": "Keith",
@@ -13660,12 +18021,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "saeedblacknall": {
+  "Saeed Blacknall": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 80,
     "full_name": "saeedblacknall",
     "first_name": "Saeed",
@@ -13685,12 +18054,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "joshadams": {
+  "Josh Adams": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 36,
     "full_name": "joshadams",
     "first_name": "Josh",
@@ -13710,12 +18087,20 @@ const playersAndStats18 = {
     "rush_att": 120,
     "rush_td": 3,
     "rush_yd": 511,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "richiejames": {
+  "Richie James": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "richiejames",
     "first_name": "Richie",
@@ -13735,12 +18120,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "treyquinn": {
+  "Trey Quinn": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "treyquinn",
     "first_name": "Trey",
@@ -13760,12 +18153,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "trentsherfield": {
+  "Trent Sherfield": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 16,
     "full_name": "trentsherfield",
     "first_name": "Trent",
@@ -13785,12 +18186,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "damariscott": {
+  "Da'mari Scott": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 5,
     "full_name": "damariscott",
     "first_name": "Da'mari",
@@ -13810,12 +18219,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "philliplindsay": {
+  "Phillip Lindsay": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 30,
     "full_name": "philliplindsay",
     "first_name": "Phillip",
@@ -13835,12 +18252,20 @@ const playersAndStats18 = {
     "rush_att": 192,
     "rush_td": 9,
     "rush_yd": 1037,
-    "td": 10
+    "td": 10,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jawilldavis": {
+  "Jawill Davis": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 1,
     "full_name": "jawilldavis",
     "first_name": "Jawill",
@@ -13860,12 +18285,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "allenlazard": {
+  "Allen Lazard": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "allenlazard",
     "first_name": "Allen",
@@ -13885,12 +18318,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mattflanagan": {
+  "Matt Flanagan": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "mattflanagan",
     "first_name": "Matt",
@@ -13910,12 +18351,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "mikeboone": {
+  "Mike Boone": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 23,
     "full_name": "mikeboone",
     "first_name": "Mike",
@@ -13935,12 +18384,20 @@ const playersAndStats18 = {
     "rush_att": 11,
     "rush_td": 0,
     "rush_yd": 47,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "gusedwards": {
+  "Gus Edwards": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 35,
     "full_name": "gusedwards",
     "first_name": "Gus",
@@ -13960,12 +18417,20 @@ const playersAndStats18 = {
     "rush_att": 137,
     "rush_td": 2,
     "rush_yd": 718,
-    "td": 2
+    "td": 2,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "robertfoster": {
+  "Robert Foster": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 16,
     "full_name": "robertfoster",
     "first_name": "Robert",
@@ -13985,12 +18450,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 3
+    "td": 3,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jordanfranks": {
+  "Jordan Franks": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "jordanfranks",
     "first_name": "Jordan",
@@ -14010,12 +18483,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "vyncintsmith": {
+  "Vyncint Smith": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "vyncintsmith",
     "first_name": "Vyncint",
@@ -14035,12 +18516,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "detreznewsome": {
+  "Detrez Newsome": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 38,
     "full_name": "detreznewsome",
     "first_name": "Detrez",
@@ -14060,12 +18549,20 @@ const playersAndStats18 = {
     "rush_att": 11,
     "rush_td": 0,
     "rush_yd": 49,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jjjones": {
+  "JJ Jones": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "jjjones",
     "first_name": "JJ",
@@ -14085,12 +18582,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "gregoryhowelljr": {
+  "Gregory Howell Jr.": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 38,
     "full_name": "gregoryhowelljr",
     "first_name": "Gregory",
@@ -14110,12 +18615,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "rocthomas": {
+  "Roc Thomas": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 35,
     "full_name": "rocthomas",
     "first_name": "Roc",
@@ -14135,12 +18648,20 @@ const playersAndStats18 = {
     "rush_att": 8,
     "rush_td": 0,
     "rush_yd": 30,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "deonyelder": {
+  "Deon Yelder": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "deonyelder",
     "first_name": "Deon",
@@ -14160,12 +18681,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "quadreehenderson": {
+  "Quadree Henderson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 81,
     "full_name": "quadreehenderson",
     "first_name": "Quadree",
@@ -14185,12 +18714,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jefferywilson": {
+  "Jeffery Wilson": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 30,
     "full_name": "jefferywilson",
     "first_name": "Jeffery",
@@ -14210,12 +18747,20 @@ const playersAndStats18 = {
     "rush_att": 66,
     "rush_td": 0,
     "rush_yd": 266,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 2
   },
-  "rossdwelley": {
+  "Ross Dwelley": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 82,
     "full_name": "rossdwelley",
     "first_name": "Ross",
@@ -14235,12 +18780,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "donnieernsberger": {
+  "Donnie Ernsberger": {
     "fantasy_positions": [
       "TE"
     ],
+    "year": 2018,
     "number": 86,
     "full_name": "donnieernsberger",
     "first_name": "Donnie",
@@ -14260,12 +18813,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "cameronbatson": {
+  "Cameron Batson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "cameronbatson",
     "first_name": "Cameron",
@@ -14285,12 +18846,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 1,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "deontayburnett": {
+  "Deontay Burnett": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 18,
     "full_name": "deontayburnett",
     "first_name": "Deontay",
@@ -14310,12 +18879,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "antoniocallaway": {
+  "Antonio Callaway": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 11,
     "full_name": "antoniocallaway",
     "first_name": "Antonio",
@@ -14335,12 +18912,20 @@ const playersAndStats18 = {
     "rush_att": 2,
     "rush_td": 0,
     "rush_yd": 7,
-    "td": 5
+    "td": 5,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 1
   },
-  "equanimeousstbrown": {
+  "Equanimeous St. Brown": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 19,
     "full_name": "equanimeousstbrown",
     "first_name": "Equanimeous",
@@ -14360,13 +18945,21 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 5,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "tremonsmith": {
+  "Tremon Smith": {
     "fantasy_positions": [
       "RB",
       "DB"
     ],
+    "year": 2018,
     "number": 27,
     "full_name": "tremonsmith",
     "first_name": "Tremon",
@@ -14386,12 +18979,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "nyheimhines": {
+  "Nyheim Hines": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 21,
     "full_name": "nyheimhines",
     "first_name": "Nyheim",
@@ -14411,12 +19012,20 @@ const playersAndStats18 = {
     "rush_att": 85,
     "rush_td": 2,
     "rush_yd": 314,
-    "td": 4
+    "td": 4,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "justinwatson": {
+  "Justin Watson": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "justinwatson",
     "first_name": "Justin",
@@ -14436,12 +19045,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "jalentolliver": {
+  "Jalen Tolliver": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 88,
     "full_name": "jalentolliver",
     "first_name": "Jalen",
@@ -14461,12 +19078,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "stevendunbar": {
+  "Steven Dunbar": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 13,
     "full_name": "stevendunbar",
     "first_name": "Steven",
@@ -14486,12 +19111,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "shaunwilson": {
+  "Shaun Wilson": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 31,
     "full_name": "shaunwilson",
     "first_name": "Shaun",
@@ -14511,12 +19144,20 @@ const playersAndStats18 = {
     "rush_att": 6,
     "rush_td": 0,
     "rush_yd": 29,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "camsims": {
+  "Cam Sims": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 89,
     "full_name": "camsims",
     "first_name": "Cam",
@@ -14536,12 +19177,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "delanceturner": {
+  "De'Lance Turner": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 47,
     "full_name": "delanceturner",
     "first_name": "De'Lance",
@@ -14561,12 +19210,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 4,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "dontrellhilliard": {
+  "Dontrell Hilliard": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 25,
     "full_name": "dontrellhilliard",
     "first_name": "Dontrell",
@@ -14586,12 +19243,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 1,
+    "pass_cmp": 0,
+    "pass_att": 1,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "derrickwillies": {
+  "Derrick Willies": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "derrickwillies",
     "first_name": "Derrick",
@@ -14611,12 +19276,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "darrelwilliams": {
+  "Darrel Williams": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 31,
     "full_name": "darrelwilliams",
     "first_name": "Darrel",
@@ -14636,12 +19309,20 @@ const playersAndStats18 = {
     "rush_att": 13,
     "rush_td": 0,
     "rush_yd": 44,
-    "td": 1
+    "td": 1,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "janariongrant": {
+  "Janarion Grant": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "janariongrant",
     "first_name": "Janarion",
@@ -14661,12 +19342,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "chadbeebe": {
+  "Chad Beebe": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "chadbeebe",
     "first_name": "Chad",
@@ -14686,12 +19375,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "keithford": {
+  "Keith Ford": {
     "fantasy_positions": [
       "RB"
     ],
+    "year": 2018,
     "number": 27,
     "full_name": "keithford",
     "first_name": "Keith",
@@ -14711,12 +19408,20 @@ const playersAndStats18 = {
     "rush_att": 21,
     "rush_td": 0,
     "rush_yd": 79,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "camphillips": {
+  "Cam Phillips": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 87,
     "full_name": "camphillips",
     "first_name": "Cam",
@@ -14736,12 +19441,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "chrislacy": {
+  "Chris Lacy": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "chrislacy",
     "first_name": "Chris",
@@ -14761,13 +19474,21 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "nickdeluca": {
+  "Nick Deluca": {
     "fantasy_positions": [
       "TE",
       "LB"
     ],
+    "year": 2018,
     "number": 58,
     "full_name": "nickdeluca",
     "first_name": "Nick",
@@ -14787,12 +19508,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "brandonpowell": {
+  "Brandon Powell": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 15,
     "full_name": "brandonpowell",
     "first_name": "Brandon",
@@ -14812,12 +19541,20 @@ const playersAndStats18 = {
     "rush_att": 1,
     "rush_td": 0,
     "rush_yd": 4,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "darvinkidsy": {
+  "Darvin Kidsy": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 84,
     "full_name": "darvinkidsy",
     "first_name": "Darvin",
@@ -14837,12 +19574,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "khadarelhodge": {
+  "Khadarel Hodge": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 12,
     "full_name": "khadarelhodge",
     "first_name": "Khadarel",
@@ -14862,12 +19607,20 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   },
-  "malikturner": {
+  "Malik Turner": {
     "fantasy_positions": [
       "WR"
     ],
+    "year": 2018,
     "number": 17,
     "full_name": "malikturner",
     "first_name": "Malik",
@@ -14887,7 +19640,14 @@ const playersAndStats18 = {
     "rush_att": 0,
     "rush_td": 0,
     "rush_yd": 0,
-    "td": 0
+    "td": 0,
+    "pass_td": 0,
+    "pass_int": 0,
+    "pass_cmp": 0,
+    "pass_att": 0,
+    "pass_yd": 0,
+    "pass_inc": 0,
+    "fum_lost": 0
   }
 }
 
