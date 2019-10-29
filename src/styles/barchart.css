@@ -1,6 +1,9 @@
 .bar-chart {  
     background-image: url("footback.png");  
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-right: 200px;
+    background-position-y: -25px;
 }
 
 
