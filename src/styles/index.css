@@ -39,7 +39,7 @@ padding-right: 10px;
   display: flex;
     flex-direction: row;
     /* justify-content: flex-start; */
-    background-color: white;
+    background-color: #C7D9D9;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 14px;
@@ -93,4 +93,35 @@ margin-left: 80px;
 .autocomplete-items{   
   max-height: 200px;
   overflow-y: scroll;
+}
+
+.stats-list{
+  padding-left: 0px;
+  font-size: 18px;
+  display: grid;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.stats-list div{
+  padding-bottom: 5px;
+}
+
+.even{
+ background-color:lightseagreen;
+}
+
+.odd{
+ background-color: orange ;
+}
+
+body{
+  background-color: #C7D9D9;
+}
+
+.add-player{
+ width: 100%;
+}
+
+.input-time{
+ width: 100%;
 }

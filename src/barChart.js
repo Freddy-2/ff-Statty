@@ -87,5 +87,8 @@ export default function (dataset2){
     .attr("x", function(d, i) {
       return barWidth * i;
     })
-    .attr("fill", "red");
+    .attr("fill", "white")
+    .attr("font-weight", "bold")
+    .attr("font-size", "18px")
+    .attr("font-family", "Arial");
   }

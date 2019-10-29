@@ -50,6 +50,7 @@ window.addEventListener("DOMContentLoaded", () => {
   }
   function setStats(input) {
    let newName = document.getElementById("stats-name");
+   let position = document.getElementById("stats-position");
    let jerseyNum = document.getElementById("Jersey-Number");
    let year = document.getElementById("Year");
    let team = document.getElementById("Team");
@@ -70,7 +71,7 @@ window.addEventListener("DOMContentLoaded", () => {
    let rushyd = document.getElementById("Rushing-Yards");
    let rushtd = document.getElementById("Rushing-Touchdowns");
    let tds = document.getElementById("Total-Touchdowns");
-   newName.innerHTML = input.first_name + " " + input.last_name + " " + input.position;
+   newName.innerHTML = input.first_name + " " + input.last_name;
    jerseyNum.innerHTML = input.number;
    year.innerHTML = input.year;
    team.innerHTML = input.team;
@@ -91,6 +92,7 @@ window.addEventListener("DOMContentLoaded", () => {
    rushyd.innerHTML = input.rush_yd;
    rushtd.innerHTML = input.rush_td;
    tds.innerHTML = input.td;
+   position.innerHTML = input.position;
   }
 
 
