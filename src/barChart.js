@@ -10,9 +10,10 @@ export default function (dataset2){
   //   .append("p") // appends paragraph for each data element
   //   .text(dataset1[3]); f
 
-  var compWidth = window.innerWidth / 2;
+  // var compWidth = window.innerWidth / 2;
 
-  var svgWidth = compWidth > 700 ? compWidth : 700 ;
+  // var svgWidth = compWidth > 700 ? compWidth : 700 ;
+  var svgWidth = 1400;
   var svgHeight = 700;
 
   var svg = d3
@@ -39,7 +40,7 @@ export default function (dataset2){
       return svgHeight - d.pts - 25;
     })
     .attr("height", function(d) {
-      return d.pts;
+      return d.pts +25;
     })
     .attr("width", barWidth - barPadding -10)
     .attr("transform", function(d, i) {
@@ -84,7 +85,7 @@ export default function (dataset2){
       return d.pts + " ppr pts";
     })
     .attr("y", function(d, i) {
-      return svgHeight - d.pts +15;
+      return svgHeight - d.pts - 5;
     })
 
 

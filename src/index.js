@@ -49,6 +49,7 @@ window.addEventListener("DOMContentLoaded", () => {
    newName.innerHTML = input + " " + playersAndStats18[input].position;
   }
   function setStats(input) {
+    // debugger
    let newName = document.getElementById("stats-name");
    let position = document.getElementById("stats-position");
    let jerseyNum = document.getElementById("Jersey-Number");
@@ -100,7 +101,7 @@ window.addEventListener("DOMContentLoaded", () => {
   
   d3.select("p").on("click", function(){
       // debugger
-      if (!playersAndStats18[document.getElementById("myInput").value].pts_ppr === true){
+      if (playersAndStats18[document.getElementById("myInput").value].pts_ppr === undefined){
         return;
       }
       dataset2.pop();
