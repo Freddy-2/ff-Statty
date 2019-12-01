@@ -2,7 +2,7 @@
 
 # Background and Overview
     I have always been a huge football fan. My interest in fantasy football came later.
-    I've wanted a tool to see a player's stats alongside their fantasy points over the course of multiple seasons for a while
+    I've wanted a tool to see a player's stats alongside their fantasy points and to compare it with top and average players,
     so why not make one! 
     
 # Functionality and MVP Features
