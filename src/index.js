@@ -29,7 +29,7 @@ window.addEventListener("DOMContentLoaded", () => {
   var dataset2 = [
    {pts: playersAndStats18["Patrick Mahomes"].pts_ppr, name: playersAndStats18["Patrick Mahomes"].full_name},
    {pts: 283.1, name: "Average QB"},
-   {pts: playersAndStats18["Saquan Barkley"].pts_ppr, name: playersAndStats18["Saquan Barkley"].full_name},
+   {pts: playersAndStats18["Saquon Barkley"].pts_ppr, name: playersAndStats18["Saquon Barkley"].full_name},
    {pts: 194.1, name: "Average RB"},
    {pts: playersAndStats18["Tyreek Hill"].pts_ppr, name: playersAndStats18["Tyreek Hill"].full_name},
    {pts: 197, name: "Average WR"},
