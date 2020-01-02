@@ -1,13 +1,12 @@
 ## ff-Statty
+    I have always been a huge football fan. My interest in fantasy football came later
+    I've wanted a tool to see a player's stats alongside their fantasy points 
+    and to compare it with top and average players, so I made one! 
 
 ### Check out ff-Statty
 ![ff-Statty Pic](ffstattypic.png?raw=true "kelp home pg")
 [ff-Statty Live Link](https://freddy-2.github.io/ff-Statty/)
 
-# Background and Overview
-    I have always been a huge football fan. My interest in fantasy football came later
-    I've wanted a tool to see a player's stats alongside their fantasy points 
-    and to compare it with top and average players, so I made one! 
     
 # Functionality and MVP Features
 * You are able to search by player name and see their 2018 statistics and fantasy points
