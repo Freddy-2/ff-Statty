@@ -6,7 +6,8 @@
 
 # Background and Overview
     I have always been a huge football fan. My interest in fantasy football came later
-    I've wanted a tool to see a player's stats alongside their fantasy points and to compare it with top and average players, so I made one! 
+    I've wanted a tool to see a player's stats alongside their fantasy points 
+    and to compare it with top and average players, so I made one! 
     
 # Functionality and MVP Features
 * You are able to search by player name and see their 2018 statistics and fantasy points
@@ -21,4 +22,4 @@
 * CSS for style, JS and HTML to make it all work together
 
 ## SleeperBot's API 
-* This was be used to get the stats and player information
+* This was used to get the stats and player information
