@@ -1,7 +1,7 @@
 ## ff-Statty
 
 ### Check out ff-Statty
-<!-- ![Kelp Pic](app/assets/images/kelppic.png?raw=true "kelp home pg") -->
+![ff-Statty Pic](ffstattypic.png?raw=true "kelp home pg")
 [ff-Statty Live Link](https://freddy-2.github.io/ff-Statty/)
 
 # Background and Overview
