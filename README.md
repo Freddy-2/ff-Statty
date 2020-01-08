@@ -4,8 +4,8 @@
     and to compare it with top and average players, so I made one! 
 
 ### Check out ff-Statty
-![ff-Statty Pic](ffstattypic.png?raw=true "kelp home pg")
 [ff-Statty Live Link](https://freddy-2.github.io/ff-Statty/)
+![ff-Statty Pic](ffstattypic.png?raw=true "kelp home pg")
 
     
 # Functionality and MVP Features
